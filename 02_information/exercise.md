@@ -1,5 +1,7 @@
 # 2. Information - Übungen
 
+-:[0](questions/in_conversion_base10_to_base2.erb#198)
+-:[0](questions/in_conversion_base10_to_base16.erb#173)
 ## 2.1 Pi als Nachricht
 Lässt sich die Zahl π als Nachricht übermitteln? Begründen Sie Ihre Antwort.
 

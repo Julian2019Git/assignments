@@ -172,31 +172,31 @@ Wie nennt man den Teil des Betriebssystems, der im privilegierten Modus läuft?
 ## 6.17 CPU-Vergabe
 Wie nennt man den Vorgang in einem Betriebssystem, der für die Zuordnung der CPU(s) zu den abzuarbeitenden Prozessen zuständig ist?
 
+  * [ ] kritischer Bereich
+  * [ ] Mutual Exclusion
   * [ ] work plan
   * [ ] Scheduling
-  * [ ] Mutual Exclusion
-  * [ ] kritischer Bereich
 
 ## 6.18 Threads
 Was ist ein Thread aus Sicht des Betriebssystems?
 
-  * [ ] eine Menge von beliebigen auszuführenden Befehlen unterschiedlicher Programme
+  * [ ] eine Folge von Befehlen aus unterschiedlichen Programmen, jeweils 1 Befehl pro Programm
   * [ ] die Menge aller gleichzeitig ausführbaren Befehle eines Programms
+  * [ ] eine Menge von beliebigen auszuführenden Befehlen unterschiedlicher Programme
   * [ ] eine Folge von sequentiell auszuführenden Befehlen innerhalb eines Programms
   * [ ] eine Menge parallel ausführbarer Programme
-  * [ ] eine Folge von Befehlen aus unterschiedlichen Programmen, jeweils 1 Befehl pro Programm
 
 ## 6.19 Hilfe holen
 Wie können Sie sich die Hilfeseiten zum Kommando `sort` anzeigen lassen?
 
-  * [ ] `sort -help`
+  * [ ] `cat sort`
   * [ ] `man sort`
   * [ ] `support sort`
-  * [ ] `help sort`
+  * [ ] `sort -help`
   * [ ] `ls sort`
   * [ ] `sort -h`
+  * [ ] `help sort`
   * [ ] `less sort`
-  * [ ] `cat sort`
 
 ## 6.20 Berechtigungen
 Sie sehen in einem Verzeichnis den folgenden Eintrag:
@@ -207,19 +207,19 @@ Sie sehen in einem Verzeichnis den folgenden Eintrag:
 
 Was können Sie über die Berechtigungen dieser Datei sagen?
 
-  * [ ] Die Gruppe darf die Datei lesen
-  * [ ] Der Benutzer darf die Datei ausführen
-  * [ ] Die Datei gehört der Gruppe `thomas`
-  * [ ] Die Datei gehört der Gruppe `staff`
-  * [ ] Die Datei gehört dem Benutzer `staff`
-  * [ ] Der Benutzer darf die Datei schreiben
-  * [ ] Die Gruppe darf die Datei ausführen
-  * [ ] Jeder beliebige Benutzer darf die Datei ausführen
   * [ ] Die Datei gehört dem Benutzer `thomas`
-  * [ ] Der Benutzer darf die Datei lesen
   * [ ] Jeder beliebige Benutzer darf die Datei schreiben
-  * [ ] Jeder beliebige Benutzer darf die Datei lesen
+  * [ ] Die Gruppe darf die Datei ausführen
+  * [ ] Die Datei gehört der Gruppe `thomas`
+  * [ ] Jeder beliebige Benutzer darf die Datei ausführen
   * [ ] Die Gruppe darf die Datei schreiben
+  * [ ] Die Datei gehört dem Benutzer `staff`
+  * [ ] Der Benutzer darf die Datei ausführen
+  * [ ] Die Gruppe darf die Datei lesen
+  * [ ] Der Benutzer darf die Datei schreiben
+  * [ ] Jeder beliebige Benutzer darf die Datei lesen
+  * [ ] Der Benutzer darf die Datei lesen
+  * [ ] Die Datei gehört der Gruppe `staff`
 
 ## 6.21 Berechtigungen
 Sie sehen in einem Verzeichnis den folgenden Eintrag:
@@ -230,19 +230,19 @@ Sie sehen in einem Verzeichnis den folgenden Eintrag:
 
 Was können Sie über die Berechtigungen dieser Datei sagen?
 
-  * [ ] Jeder beliebige Benutzer darf die Datei schreiben
-  * [ ] Die Datei gehört dem Benutzer `thomas`
-  * [ ] Die Datei gehört der Gruppe `thomas`
-  * [ ] Die Gruppe darf die Datei ausführen
-  * [ ] Die Datei gehört dem Benutzer `staff`
   * [ ] Die Gruppe darf die Datei schreiben
-  * [ ] Die Datei gehört der Gruppe `staff`
-  * [ ] Der Benutzer darf die Datei schreiben
-  * [ ] Der Benutzer darf die Datei ausführen
-  * [ ] Der Benutzer darf die Datei lesen
   * [ ] Die Gruppe darf die Datei lesen
-  * [ ] Jeder beliebige Benutzer darf die Datei lesen
+  * [ ] Der Benutzer darf die Datei lesen
+  * [ ] Die Datei gehört dem Benutzer `thomas`
+  * [ ] Der Benutzer darf die Datei ausführen
+  * [ ] Der Benutzer darf die Datei schreiben
+  * [ ] Die Datei gehört der Gruppe `staff`
   * [ ] Jeder beliebige Benutzer darf die Datei ausführen
+  * [ ] Jeder beliebige Benutzer darf die Datei lesen
+  * [ ] Die Datei gehört der Gruppe `thomas`
+  * [ ] Jeder beliebige Benutzer darf die Datei schreiben
+  * [ ] Die Datei gehört dem Benutzer `staff`
+  * [ ] Die Gruppe darf die Datei ausführen
 
 ## 6.22 Unix-Kommandos
 Bitte ordnen Sie den Unix-Kommandos ihre jeweilige Aufgabe zu:
@@ -272,26 +272,26 @@ Bitte ordnen Sie den Unix-Kommandos ihre jeweilige Aufgabe zu:
 
 *Antworten:*
 
-  1. Den Anfang einer Datei ausgeben
-  2. Dateien nach einem bestimmten Inhalt untersuchen
-  3. Zwei Dateien miteinander vergleichen
-  4. Benutzen Plattenplatz anzeigen
-  5. Ein Verzeichnis anlegen
-  6. Freien Plattenplatz anzeigen
-  7. Eine Datei kopieren
-  8. Den Verzeichnisinhalt anzeigen
-  9. Inhalt einer Datei ausgeben
-  10. Die Zugriffsrechte einer Datei anpassen
-  11. Den Besitzer einer Datei ändenr
-  12. Einen Text ausgeben
-  13. Den Bildschirm löschen
-  14. Einen Link erstellen
-  15. In ein anderes Verzeichnis wechseln
-  16. Die letzten, eingegeben Befehle ausgeben
-  17. Dateien mit einem bestimmten Namen finden
-  18. Hilfeseiten aufrufen
-  19. Die Gruppenzugehörigkeit einer Datei ändern
-  20. Eine Prozess beenden
+  1. In ein anderes Verzeichnis wechseln
+  2. Die Gruppenzugehörigkeit einer Datei ändern
+  3. Eine Prozess beenden
+  4. Hilfeseiten aufrufen
+  5. Den Anfang einer Datei ausgeben
+  6. Einen Link erstellen
+  7. Inhalt einer Datei ausgeben
+  8. Freien Plattenplatz anzeigen
+  9. Eine Datei kopieren
+  10. Einen Text ausgeben
+  11. Benutzen Plattenplatz anzeigen
+  12. Die letzten, eingegeben Befehle ausgeben
+  13. Zwei Dateien miteinander vergleichen
+  14. Ein Verzeichnis anlegen
+  15. Dateien mit einem bestimmten Namen finden
+  16. Den Verzeichnisinhalt anzeigen
+  17. Den Bildschirm löschen
+  18. Dateien nach einem bestimmten Inhalt untersuchen
+  19. Die Zugriffsrechte einer Datei anpassen
+  20. Den Besitzer einer Datei ändenr
 
 
 ## 6.23 Unix-Kommandos
@@ -321,43 +321,43 @@ Bitte ordnen Sie den Unix-Kommandos ihre jeweilige Aufgabe zu:
 
 *Antworten:*
 
-  1. Das aktuelle Verzeichnis ausgeben
-  2. Das folgende Kommando als root ausführen
-  3. Doubletten entfernen
-  4. Eine Datei verschieben oder umbenennen
-  5. Prüfen, ob ein Rechner über das Internet erreichbar ist
-  6. Ersetzungen mit regulären Ausdrücken durchführen
-  7. Sich an einem anderen Computer anmelden
-  8. Anzeigen, welchen Pfad ein Kommando hat
-  9. Ein Verzeichnis löschen
-  10. Laufende Prozesse anzeigen
-  11. Inhalt einer Datei ausgeben
-  12. Inhalte sortieren
-  13. Das Ende einer Datei anzeigen
-  14. Den Benutzer wechseln
-  15. Das Passwort ändern
-  16. Texte editieren
-  17. Den Computer neu starten
-  18. Worte und Zeilen zählen
-  19. Dateien löschen
-  20. Den Computer herunterfahren
+  1. Dateien löschen
+  2. Sich an einem anderen Computer anmelden
+  3. Das Ende einer Datei anzeigen
+  4. Den Computer neu starten
+  5. Ein Verzeichnis löschen
+  6. Das folgende Kommando als root ausführen
+  7. Prüfen, ob ein Rechner über das Internet erreichbar ist
+  8. Laufende Prozesse anzeigen
+  9. Den Computer herunterfahren
+  10. Ersetzungen mit regulären Ausdrücken durchführen
+  11. Texte editieren
+  12. Anzeigen, welchen Pfad ein Kommando hat
+  13. Doubletten entfernen
+  14. Das aktuelle Verzeichnis ausgeben
+  15. Worte und Zeilen zählen
+  16. Den Benutzer wechseln
+  17. Inhalte sortieren
+  18. Das Passwort ändern
+  19. Inhalt einer Datei ausgeben
+  20. Eine Datei verschieben oder umbenennen
 
 
 ## 6.24 Eingabe- und Ausgabeumlenkung
 Sie wollen den Inhalt einer Datei `names.txt` sortieren und danach alle doppelten Einträge entfernen. Das Ergebnis soll in eine neue Datei `result.txt` geschrieben werden. Welche Kommandos sind hierfür korrekt?
 
-  * [ ] cat names.txt > sort > uniq > result.txt
-  * [ ] sort names.txt | uniq | result.txt
+  * [ ] sort < names.txt | uniq | result.txt
   * [ ] sort names.txt | uniq < result.txt
   * [ ] sort names.txt | uniq > result.txt
   * [ ] cat names.txt | sort | uniq < result.txt
-  * [ ] sort < names.txt | uniq > result.txt
   * [ ] sort < names.txt | uniq < result.txt
-  * [ ] sort < names.txt | uniq | result.txt
+  * [ ] cat names.txt | sort | uniq | result.txt
+  * [ ] sort < names.txt | uniq > result.txt
+  * [ ] sort names.txt | uniq | result.txt
   * [ ] sort names.txt > uniq > result.txt
   * [ ] names.txt | sort | uniq > result.txt
   * [ ] cat names.txt | sort | uniq > result.txt
-  * [ ] cat names.txt | sort | uniq | result.txt
+  * [ ] cat names.txt > sort > uniq > result.txt
 
 ## 6.25 Spezielle Verzeichnisse
 Ordnen Sie bitte den angegebenen Verzeichnissen ihre jeweilige Rolle in einem Unix-System zu:
@@ -376,24 +376,24 @@ Ordnen Sie bitte den angegebenen Verzeichnissen ihre jeweilige Rolle in einem Un
 
   1. Daten des privilegierten Benutzers
   2. Dateien des Systems, die sich ständig ändern
-  3. Laufzeitinformationen zum Betriebssystem
-  4. Ausführbare Programme
+  3. Ausführbare Programme
+  4. Konfigurationsdateien
   5. Temporäre Dateien
-  6. Gerätedateien
-  7. Daten der Benutzer
-  8. Konfigurationsdateien
+  6. Laufzeitinformationen zum Betriebssystem
+  7. Gerätedateien
+  8. Daten der Benutzer
 
 
 ## 6.26 Prozess vs. Programm
 Ordnen Sie __Prozess__ und __Programm__ die jeweiligen Eigenschaften zu.
 
-  * Auf der Festplatte gespeichert: ....
   * Führt exakt ein P. aus: ....
+  * Auf der Festplatte gespeichert: ....
+  * Ein P., das gerade ausgeführt wird: ....
   * Arbeitseinheit des Betriebssystems: ....
   * Passive Entität: ....
-  * Wird in den Speicher geladen: ....
-  * Ein P., das gerade ausgeführt wird: ....
   * Ist isoliert von anderen: ....
+  * Wird in den Speicher geladen: ....
   * Kann mehrfach ausgeführt werden: ....
 
 *Antworten:*
@@ -406,20 +406,20 @@ Ordnen Sie __Prozess__ und __Programm__ die jeweiligen Eigenschaften zu.
 Ordnen Sie den unten genannten Aufgaben die jeweiligen Komponenten des Betriebssystems zu, die für diese Aufgaben zuständig sind:
 
   * Kommunikation zwischen Prozessen ermöglichen: ....
-  * Physischen und logischen Speicher trennen: ....
-  * Rechenzeit an Prozesse verteilen: ....
-  * Benutzereingaben auf der Konsole annehmen und ausführen: ....
-  * Rechenzeit an Threads verteilen: ....
   * Programmen Dienste des Betriebssystems zur Verfügung stellen: ....
   * Dateien verwalten, anlegen, löschen etc.: ....
+  * Rechenzeit an Prozesse verteilen: ....
+  * Benutzereingaben auf der Konsole annehmen und ausführen: ....
+  * Physischen und logischen Speicher trennen: ....
+  * Rechenzeit an Threads verteilen: ....
 
 *Antworten:*
 
-  1. Scheduler
-  2. Dateisystem
-  3. System-Calls
+  1. System-Calls
+  2. IPC (Inter-process communication)
+  3. Shell
   4. Virtual Memory
-  5. IPC (Inter-process communication)
-  6. Shell
+  5. Scheduler
+  6. Dateisystem
 
 
