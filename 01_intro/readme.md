@@ -60,3 +60,5 @@ Bitte bearbeiten Sie die [Übung](exercise.md) zu diesem Kapitel.
 ## Abgabe
 
 Sie müssen die Lösung zu den Übungen als PDF-Dokument in Moodle hochladen. Zum Erstellen der Lösung verwenden Sie bitte das entsprechende [LaTeX-Template](../loesung_template.tex), fügen Sie Ihre Antworten ein und erstellen Sie dann daraus das PDF. Beachten Sie zum Umgang mit LaTeX die [Anleitung](../readme_latex.md).
+
+Da es sich hier um das Beispielthema handelt, ist die [Lösung](loesung.pdf) bereits für erstellt worden; Sie müssen Sie also nur noch hochladen. Wenn Sie wollen, können Sie die Lösung auch noch überarbeiten oder verfeinern - verwenden Sie hierzu die entsprechende [Quelldatei](loesung.tex).
