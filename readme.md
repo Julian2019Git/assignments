@@ -3,7 +3,7 @@
 ## Themenüberblick
 | # | Datum | Thema | Übungen |
 |---|-------|-------|----------|
-| 1. | 30.9 | [Einführung](01_intro/readme.md) | [Übungen](01_intro/exercise.md) |
+| 1. | 30.09 | [Einführung](01_intro/readme.md) | [Übungen](01_intro/exercise.md) |
 | 2. | 09.10 | [Information](02_information/readme.md) | [Übungen](02_information/exercise.md) |
 | 3. | 16.10 | [Kompression und Codierung](03_codes/readme.md) | [Übungen](03_codes/exercise.md) |
 | 4. | 23.10 | [Computerhardware](04_hardware/readme.md) | [Übungen](04_hardware/exercise.md) |
@@ -16,5 +16,4 @@
 | 11. | 11.12 | [IT-Sicherheit](11_security/readme.md) | [Übungen](11_security/exercise.md) |
 | 12. | 18.12 | [Software Engineering](12_software_engineering/readme.md) | [Übungen](12_software_engineering/exercise.md) |
 | 13. | 08.01 | [Künstliche Intelligenz](13_ai/readme.md) | [Übungen](13_ai/exercise.md) |
-| 14. |  | [Programmierung](99_programming/readme.md) | [Übungen](99_programming/exercise.md) |
 
