@@ -83,11 +83,11 @@ Bitte berechnen Sie `11111111 ^ 00101101` durch bitweise Anwendung des Operators
 Angenommen, Sie wollen die mittleren 4 Bits eines Bytes umdrehen, wie gehen Sie am einfachsten vor (Bitmaske und Operation)?
 
 
+  * [ ] AND mit 11000011
+  * [ ] XOR mit 11000011
   * [ ] AND mit 00111100
   * [ ] OR mit 00111100
   * [ ] XOR mit 00111100
-  * [ ] XOR mit 11000011
-  * [ ] AND mit 11000011
   * [ ] OR mit 11000011
 
 ## 5.18 Leistung einer Schaltung
@@ -114,22 +114,22 @@ Entwerfen Sie unter Verwendung von Gattern mit zwei Eingängen ein Oder-Gatter m
 Angenommen, Sie wollen die mittleren 4 Bits eines Bytes umdrehen, wie gehen Sie am einfachsten vor (Bitmaske und Operation)?
 
 
-  * [ ] OR mit 00111100
-  * [ ] XOR mit 00111100
-  * [ ] OR mit 11000011
   * [ ] AND mit 11000011
-  * [ ] XOR mit 11000011
   * [ ] AND mit 00111100
+  * [ ] OR mit 00111100
+  * [ ] XOR mit 11000011
+  * [ ] OR mit 11000011
+  * [ ] XOR mit 00111100
 
 ## 5.23 DeMorgan
 
 Bei welchen der unten aufgeführten Aussagen handelt es sich um ein DeMorgan'sches Gesetz?
 
+  * [ ] ¬(A ⋀ B) ≡ ¬A ∨ ¬B
+  * [ ] A ⋀ (B ∨ C) ≡ (A ⋀ B) ∨ (A ⋀ C)
+  * [ ] ¬A ∨ B ≡ B ∨ ¬A
   * [ ] A ∨ B ≡ ¬(¬A ⋀ ¬B)
   * [ ] A ⇒ B ≡ ¬A ∨ B
-  * [ ] ¬A ∨ B ≡ B ∨ ¬A
-  * [ ] A ⋀ (B ∨ C) ≡ (A ⋀ B) ∨ (A ⋀ C)
-  * [ ] ¬(A ⋀ B) ≡ ¬A ∨ ¬B
   * [ ] ¬A ⋀ ¬B ≡ ¬(A ∨ B)
 
 ## 5.24 Schaltung entwerfen
@@ -159,48 +159,48 @@ Angenommen, sie wollen in beliebigen Bitfolgen (8 Bit) die letzten beiden Bits i
 
 
   * [ ] NOT, danach XOR mit `11111100`
-  * [ ] XOR mit `100000000`, danach XOR mit `11111100`
-  * [ ] ODER mit `11111100`, danach UND mit `100000000`
   * [ ] ODER mit `100000000`, danach XOR mit `11111100`
   * [ ] UND mit `100000000`, danach ODER mit `11111100`
-  * [ ] XOR mit `11111100`, danach NOT
   * [ ] UND mit `11111100`, danach ODER mit `100000000`
+  * [ ] XOR mit `100000000`, danach XOR mit `11111100`
+  * [ ] XOR mit `11111100`, danach NOT
+  * [ ] ODER mit `11111100`, danach UND mit `100000000`
 
 ## 5.28 Ausdruck umformen
 Vereinfachen Sie durch elementare Umformungen den folgenden Ausdruck: `(A | B) & (!A & B)`. Welches Ergebnis erhalten Sie?
 
 
-  * [ ] `A & !B`
-  * [ ] `A | B`
   * [ ] `!A & B`
-  * [ ] `!A | B`
-  * [ ] `!A & !B`
   * [ ] `A | !B`
-  * [ ] `A & B`
+  * [ ] `A | B`
   * [ ] `!A | !B`
+  * [ ] `!A & !B`
+  * [ ] `A & !B`
+  * [ ] `!A | B`
+  * [ ] `A & B`
 
 ## 5.29 Bits maskieren
 Angenommen, sie wollen in beliebigen Bitfolgen (8 Bit) die letzten beiden Bits immer auf Null setzen und das erste Bit immer auf Eins setzen, also z.B. aus `00101011` soll `10101000` werden. Wie können Sie dies mit entsprechenden booleschen Operatoren erreichen?
 
 
-  * [ ] UND mit `100000000`, danach ODER mit `11111100`
+  * [ ] NOT, danach XOR mit `11111100`
   * [ ] XOR mit `11111100`, danach NOT
-  * [ ] ODER mit `100000000`, danach XOR mit `11111100`
-  * [ ] ODER mit `11111100`, danach UND mit `100000000`
   * [ ] UND mit `11111100`, danach ODER mit `100000000`
   * [ ] XOR mit `100000000`, danach XOR mit `11111100`
-  * [ ] NOT, danach XOR mit `11111100`
+  * [ ] ODER mit `100000000`, danach XOR mit `11111100`
+  * [ ] ODER mit `11111100`, danach UND mit `100000000`
+  * [ ] UND mit `100000000`, danach ODER mit `11111100`
 
 ## 5.30 Ausdruck umformen
 Vereinfachen Sie durch elementare Umformungen den folgenden Ausdruck: `(A | B) & (!A & B)`. Welches Ergebnis erhalten Sie?
 
 
   * [ ] `!A & B`
-  * [ ] `A & B`
-  * [ ] `!A & !B`
-  * [ ] `!A | !B`
-  * [ ] `!A | B`
   * [ ] `A & !B`
-  * [ ] `A | !B`
+  * [ ] `!A | !B`
+  * [ ] `!A & !B`
+  * [ ] `A & B`
   * [ ] `A | B`
+  * [ ] `!A | B`
+  * [ ] `A | !B`
 

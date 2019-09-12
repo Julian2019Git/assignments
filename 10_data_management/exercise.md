@@ -73,11 +73,11 @@ _ASSIGNMENT_
 
 Wie kann man die Liste aller Job-Bezeichnungen in der Personalabteilung finden? Übertragen Sie Ihre Antworten in ein SQL-Statements.
 
-  * [ ] `SELECT * FROM JOB WHERE Dept ='Personnel'`
   * [ ] `FIND * FROM JOB WHERE Dept ='Personnel'`
+  * [ ] `SELECT * FROM JOB WHERE Dept ='Personnel'`
   * [ ] `SELECT * FROM EMPLOYEE WHERE Dept ='Personnel'`
-  * [ ] `FIND JOB IN Table WHERE Employee ='Personnel'`
   * [ ] `SELECT JOB FROM Dept WHERE Employee ='Personnel'`
+  * [ ] `FIND JOB IN Table WHERE Employee ='Personnel'`
 
 ## 10.6 Beziehungen zwischen Tabellen
 Wie werden die verschiedenen Beziehungen in einer Datenbank dargestellt? Wie werden 1-n versus n-m-Beziehungen abgebildet?
@@ -98,10 +98,10 @@ Erweitern Sie die Datenbank aus der vorherigen Aufgabe um die Information, welch
 ## 10.10 DBMS vs. Anwendung
 Ordnen Sie die Aufgaben einer Anwendungssoftware und eines Datenbanksystems zu.
 
-  * erlaubt eine konsistente Sicherung der Daten: ....
   * bietet die Daten anderen Systemen an: ....
-  * enthält die Geschäftsregeln: ....
   * enthält die Daten: ....
+  * enthält die Geschäftsregeln: ....
+  * erlaubt eine konsistente Sicherung der Daten: ....
 
 *Antworten:*
 
@@ -112,29 +112,29 @@ Ordnen Sie die Aufgaben einer Anwendungssoftware und eines Datenbanksystems zu.
 ## 10.11 SQL
 Ordnen Sie den Aufgaben die jeweiligen SQL-Befehlen zu:
 
-  * Daten in Tabellen einfügen: ....
   * Tabellen löschen: ....
-  * Daten aus einer Tabelle suchen: ....
-  * Daten aus Tabellen löschen: ....
-  * Tabellen anlegen: ....
   * Indices löschen: ....
+  * Daten aus einer Tabelle suchen: ....
+  * Tabellen anlegen: ....
+  * Daten aus Tabellen löschen: ....
+  * Daten in Tabellen einfügen: ....
   * Indices anlegen: ....
 
 *Antworten:*
 
-  1. `SEARCH`
-  2. `PURGE`
-  3. `DELETE`
-  4. `DROP`
-  5. `TABLE`
-  6. `UNTABLE`
-  7. `CREATE`
-  8. `ADD`
-  9. `INSERT`
-  10. `SELECT`
-  11. `INDEX`
-  12. `OBLITERATE`
-  13. `MAKE`
+  1. `DROP`
+  2. `MAKE`
+  3. `SEARCH`
+  4. `INDEX`
+  5. `ADD`
+  6. `PURGE`
+  7. `TABLE`
+  8. `DELETE`
+  9. `OBLITERATE`
+  10. `UNTABLE`
+  11. `CREATE`
+  12. `SELECT`
+  13. `INSERT`
 
 
 ## 10.12 Relationen lesen
@@ -167,9 +167,9 @@ _ASSIGNMENT_
 
 Wer ist der Manager des Vertriebs (Sales)?
 
-  * [ ] G. Smith
-  * [ ] H. Clark
   * [ ] E. Baker
+  * [ ] H. Clark
+  * [ ] G. Smith
 
 ## 10.13 Relationen lesen
 Beantworten Sie die folgende Frage basierend auf der unten dargestellten Datenbankrelation:
@@ -201,8 +201,8 @@ _ASSIGNMENT_
 
 Wer ist der Sekretär in der Buchhaltung (Accounting) mit Erfahrungen in der Personalabteilung (Personnel)?
 
-  * [ ] H. Clark
   * [ ] E. Baker
+  * [ ] H. Clark
   * [ ] G. Smith
 
 ## 10.14 Relation
@@ -210,28 +210,28 @@ In einem Datenbankschema sollen Dirigenten und die von ihnen aufgeführten Stüc
 
 Wie würden Sie diese Art von Daten modellieren?
 
-  * [ ] Tabellen `DIRIGENT` und `STUECK`
-  * [ ] Tabellen `DIRIGENT` und `STUECK` und Verknüpfungstabelle
-  * [ ] Tabellen `DIRIGENT` und `STUECK`. Der Primärschlüssel von `STUECK` wird zum Fremdschlüssel in `DIRIGENT`
-  * [ ] Tabelle `DIRIGENT_UND_STUECK`
   * [ ] Tabellen `DIRIGENT` und `STUECK`. Der Primärschlüssel von `DIRIGENT` wird zum Fremdschlüssel in `STUECK`
+  * [ ] Tabellen `DIRIGENT` und `STUECK`. Der Primärschlüssel von `STUECK` wird zum Fremdschlüssel in `DIRIGENT`
+  * [ ] Tabellen `DIRIGENT` und `STUECK`
+  * [ ] Tabelle `DIRIGENT_UND_STUECK`
+  * [ ] Tabellen `DIRIGENT` und `STUECK` und Verknüpfungstabelle
 
 ## 10.15 Beziehungen zwischen Tabellen
 Wie werden die verschiedenen Beziehungen in einer Datenbank dargestellt? Wählen Sie die richtigen Aussagen aus:
 
+  * [ ] bei m-n Beziehungen werden die Einträge einer Tabelle an die andere angehängt
+  * [ ] bei 1-n Beziehungen ist der Primärschlüssel einer Tabelle der Fremdschlüssel einer anderen Tabelle
   * [ ] bei 1-n Beziehungen werden die Einträge einer Tabelle an die andere angehängt
+  * [ ] bei m-n Beziehungen ist der Primärschlüssel einer Tabelle der Fremdschlüssel einer anderen Tabelle
   * [ ] bei m-n Beziehungen gibt es eine weitere Tabelle, die die Primärschlüssel der zu verknüpfenden Einträge enthält
   * [ ] bei 1-n Beziehungen gibt es eine weitere Tabelle, die die Primärschlüssel der zu verknüpfenden Einträge enthält
-  * [ ] bei 1-n Beziehungen ist der Primärschlüssel einer Tabelle der Fremdschlüssel einer anderen Tabelle
-  * [ ] bei m-n Beziehungen ist der Primärschlüssel einer Tabelle der Fremdschlüssel einer anderen Tabelle
-  * [ ] bei m-n Beziehungen werden die Einträge einer Tabelle an die andere angehängt
 
 ## 10.16 Transaktion
 Was versteht man unter einer Datenbanktransaktion?
 
+  * [ ] Darstellung eines Buchhaltungsvorgangs in einer Datenbank, wobei immer eine Soll- und Habenbuchung gleichzeitig erfolgen
   * [ ] Folge von Schritten, die den Datenbestand an eine andere Datenbank übertragen und ununterbrechbar ablaufen
   * [ ] Folge von Schritten, die den Datenbestand nach fehlerfreier und vollständiger Ausführung in einem konsistenten Zustand hinterlassen
-  * [ ] Darstellung eines Buchhaltungsvorgangs in einer Datenbank, wobei immer eine Soll- und Habenbuchung gleichzeitig erfolgen
 
 ## 10.17 Datenbank verstehen
 Gegeben sei das folgende Datenbankschema.
@@ -259,11 +259,11 @@ _WERK_
 
 Welche Stücke sind von John Cage?
 
-  * [ ] Gewidment
-  * [ ] Magnificat
+  * [ ] Imaginary Landscapes
   * [ ] 4:33
   * [ ] Englische Suiten
+  * [ ] Magnificat
   * [ ] Triosonaten
   * [ ] Abrazzo-Oper
-  * [ ] Imaginary Landscapes
+  * [ ] Gewidment
 

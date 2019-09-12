@@ -40,8 +40,8 @@ Erläutern Sie das Prinzip des Triple-A (oder AAA) in der IT-Sicherheit.
 
   * [ ] AAA steht für Authentication - Authorization - Accounting
   * [ ] AAA steht für Authorization - Availability - Accountability
-  * [ ] AAA steht für Authentication - Authorization - Accountability
   * [ ] AAA steht für Authorization - Accounting - Automation
+  * [ ] AAA steht für Authentication - Authorization - Accountability
 
 ## 11.8 Authentifizierungsverfahren
 Benennen Sie drei verschiedene Authentifizierungsverfahren und jeweils deren primäre Schwäche. 
@@ -101,44 +101,44 @@ Erläutern Sie den folgenden Erklärungen die richtigen Begriffe zu:
 
 *Antworten:*
 
-  1. Zero-day Exploit
-  2. Wurm
-  3. Angriffsvektor
-  4. Rootkit
-  5. Command-and-Control Server
-  6. Virus
-  7. Buffer-Overflow
-  8. Malware
-  9. Trojaner
-  10. Exploit
+  1. Wurm
+  2. Rootkit
+  3. Zero-day Exploit
+  4. Buffer-Overflow
+  5. Malware
+  6. Exploit
+  7. Angriffsvektor
+  8. Command-and-Control Server
+  9. Virus
+  10. Trojaner
 
 
 ## 11.18 Authentifizierungsverfahren
 Ordnen Sie den genannten Authentifizierungsverfahren deren jeweilige Schwächen zu:
 
   * Challenge-Response: ....
-  * Passwort: ....
   * Biometrisch: ....
+  * Passwort: ....
 
 *Antworten:*
 
-  1. Daten können nicht mehr verändert werden
-  2. kann einfach kopiert werden
+  1. kann einfach kopiert werden
+  2. Daten können nicht mehr verändert werden
   3. Schlüssel muss sicher verwahrt werden
 
 
 ## 11.19 Symmetrische und Asymmetrische Verschlüsselung
 Bitte ordnen Sie die Eigenschaften den jeweiligen Verschlüsselungsverfahren zu:
 
-  * Diffie-Hellman-Schlüsselaustausch: ....
-  * derselbe Schlüssel für Ver- und Entschlüsselung: ....
-  * AES (Advanced Encryption Standard): ....
   * RSA (Rivest-Shamir-Adleman): ....
-  * ein Schlüssel kann zum öffentlichen Schlüssel erklärt werden: ....
-  * DES (Data Encryption Standard): ....
+  * unterschiedliche Schlüssel für Ver- und Entschlüsselung: ....
+  * Diffie-Hellman-Schlüsselaustausch: ....
   * Schlüssel muss geheim gehalten werden: ....
   * ECDL (Elliptic Curve Discrete Logarithm): ....
-  * unterschiedliche Schlüssel für Ver- und Entschlüsselung: ....
+  * ein Schlüssel kann zum öffentlichen Schlüssel erklärt werden: ....
+  * AES (Advanced Encryption Standard): ....
+  * DES (Data Encryption Standard): ....
+  * derselbe Schlüssel für Ver- und Entschlüsselung: ....
 
 *Antworten:*
 
@@ -149,13 +149,13 @@ Bitte ordnen Sie die Eigenschaften den jeweiligen Verschlüsselungsverfahren zu:
 ## 11.20 Gruppen von Schutzmaßnahmen
 Geben Sie jeweils an, ob eine Maßnahme technisch oder organisatorisch ist:
 
-  * Regeln für den Umgang mit E-Mails: ....
   * Anti-Virus-Software: ....
+  * Regeln für den Umgang mit E-Mails: ....
   * 2-Faktor-Authentifizierung: ....
   * Software-Konfiguration: ....
+  * Firewall-Regeln: ....
   * Backup regelmäßig durchführen: ....
   * Vorgabe zur Passwort-Länge: ....
-  * Firewall-Regeln: ....
 
 *Antworten:*
 
@@ -201,25 +201,25 @@ Wie lange sollte man maximal warten, bis ein Update eingespielt wird, um das Ris
 ## 11.23 Digitale Signatur
 Wofür kann man die Technologie der "Digitalen Signatur" (im kryptographischen Sinn) einsetzen?
 
-  * [ ] Sicheres Komprimieren von Dokumenten
   * [ ] Verschlüsselung von Dokumenten
-  * [ ] Integrität und Authentizität von Software-Installationspaketen bei der Installation
+  * [ ] Sicheres Komprimieren von Dokumenten
   * [ ] Nachweis des Authors eines elektronischen Dokumenten
-  * [ ] Nachweis, dass ein elektronisches Dokument nicht verändert wurde
   * [ ] Sicherer Austausch von Schlüsseln zwischen Kommunikationspartnern
+  * [ ] Integrität und Authentizität von Software-Installationspaketen bei der Installation
+  * [ ] Nachweis, dass ein elektronisches Dokument nicht verändert wurde
 
 ## 11.24 Sichere Passwörter
 Welche der Passwörter sind sicher?
 
-  * [ ] mutti123
-  * [ ] Schirm4Hacker
-  * [ ] qwertzuiop
   * [ ] gVHJQ2K2k.v9
+  * [ ] qwertzuiop
   * [ ] qaywsxedcrfv
-  * [ ] poiuztrewq=)(/&)
-  * [ ] passwort
-  * [ ] 1w%&cv
   * [ ] MickeyMouse
+  * [ ] Schirm4Hacker
+  * [ ] poiuztrewq=)(/&)
+  * [ ] 1w%&cv
+  * [ ] passwort
+  * [ ] mutti123
 
 ## 11.25 Sichere Passwörter
 Angenommen ein Passwort besteht aus acht Zeichen aus dem Alphabet A-Z (26 Zeichen) und die Überprüfung des Passwortes dauert eine Millisekunde. Wie lange dauert es, alle möglichen Passwörter durchzuprobieren?
@@ -234,13 +234,13 @@ Angenommen ein Passwort besteht aus acht Zeichen aus dem Alphabet A-Z (26 Zeiche
 ## 11.26 Ablauf Challenge-Response-Verfahren
 Alice möchte sich gegenüber Bob per Challenge-Response-Verfahren authentifizieren. Wie läuft dies dann ab? 
 
-  * Alice empfängt eine Zufallszahl Z von Bob: ....
+  * Alice sendet Bob eine Aufforderung zum Senden der Challenge: ....
   * Bob sendet Alice eine Zufallszahl Z und berechnet ein Ergebnis E mithilfe einer Einwegfunktion E = F(Z, S): ....
-  * Alice und Bob besitzen ein gemeinsames Geheimnis S: ....
-  * Alice sendet E an Bob: ....
   * Bob vergleicht das empfangene E mit seinem selbst berechneten E. Stimmen beide überein, ist Alice wirklich Alice: ....
   * Alice berechnet das Ergebnis E der E = Einwegfunktion F(Z, S): ....
-  * Alice sendet Bob eine Aufforderung zum Senden der Challenge: ....
+  * Alice sendet E an Bob: ....
+  * Alice und Bob besitzen ein gemeinsames Geheimnis S: ....
+  * Alice empfängt eine Zufallszahl Z von Bob: ....
 
 *Antworten:*
 
@@ -269,14 +269,14 @@ Man hört und [sieht](https://youtu.be/odG2GX4_cUQ) häufiger, dass Autos mit Ke
 Welche der folgenden Aussagen zu einem Challenge-Response-Verfahren sind korrekt? Gehen Sie davon aus, dass sich Alice gegenüber Bob authentifizieren will.
 
   * [ ] Alice muss die Kommunikation starten
-  * [ ] Bob muss Alices Antwort mit seiner eigenen Berechnung vergleichen
-  * [ ] Bob erzeugt die Challenge und sendet sie an Alice
-  * [ ] Alice und Bob benötigen ein gemeinsames Geheimnis
-  * [ ] Es kommt ein Public/Private-Key zum Einsatz
-  * [ ] Bob muss aus der Challenge und dem Geheimnis einen neuen Wert berechnen
-  * [ ] Alice muss aus der Challenge und dem Geheimnis einen neuen Wert berechnen
   * [ ] Das gemeinsame Geheimnis darf nicht wiederverwendet werden
+  * [ ] Bob erzeugt die Challenge und sendet sie an Alice
+  * [ ] Bob muss Alices Antwort mit seiner eigenen Berechnung vergleichen
   * [ ] Bob muss die Kommunikation starten
+  * [ ] Es kommt ein Public/Private-Key zum Einsatz
+  * [ ] Alice und Bob benötigen ein gemeinsames Geheimnis
   * [ ] Die Challenge darf nicht noch einmal verwendet werden
   * [ ] Alice erzeugt die Challenge und sendet sie an Bob
+  * [ ] Alice muss aus der Challenge und dem Geheimnis einen neuen Wert berechnen
+  * [ ] Bob muss aus der Challenge und dem Geheimnis einen neuen Wert berechnen
 

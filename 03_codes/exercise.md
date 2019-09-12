@@ -76,11 +76,11 @@ Wie lautet die empfangene Nachricht? Sind Übertragungsfehler aufgetreten? Wenn 
 Berechnen Sie für die Nachricht `1101011010` die CRC-Prüfsumme mit dem Prüfpolynom `10011`.
 
 
+  * [ ] 11010110101111
   * [ ] 10010100101111
-  * [ ] 11010110101000
   * [ ] 11010110101101
   * [ ] 11010110101001
-  * [ ] 11010110101111
+  * [ ] 11010110101000
 
 ## 3.11 Daten mit CRC prüfen
 Sie haben die Nachricht `100110110101` erhalten. Das Prüfpolynom ist `10011`. Ist die Nachricht korrekt übertragen worden?
@@ -131,13 +131,13 @@ Geben Sie für die folgenden Verfahre an, ob sie verlustbehaftete oder verlustfr
 Geben Sie für die folgenden Verfahre an, ob sie verlustbehaftete oder verlustfreie Kompressionsverfahren sind:
 
   * GZIP: ....
-  * H.264 (MPEG-4): ....
-  * LZ77: ....
+  * RLE: ....
+  * MP3: ....
   * JPEG: ....
+  * H.264 (MPEG-4): ....
   * LZW: ....
   * FLAC: ....
-  * MP3: ....
-  * RLE: ....
+  * LZ77: ....
 
 *Antworten:*
 
@@ -168,22 +168,22 @@ Warum ist das GIF-Dateiformat besser geeignet, um farbige Comics zu speichern, a
 Es gibt unterschiedliche Grafikformate mit ebenso unterschiedlichen Eigenschaften. Ordnen Sie bitte die Eigenschaften den Formaten zu:
 
   * PNG: ....
-  * JPEG: ....
-  * SVG: ....
   * BMP: ....
   * GIF: ....
+  * SVG: ....
+  * JPEG: ....
   * TIFF: ....
 
 *Antworten:*
 
-  1. pixelbasiert, verlustbehaftet, echtfarben, komprimiert
+  1. pixelbasiert, verlustbehaftet, maximal 256 Farben, komprimiert
   2. pixelbasiert, verlustfrei, echtfarben, unkomprimiert
-  3. vektorbasiert, verlustbehaftet
-  4. pixelbasiert, verlustbehaftet, maximal 256 Farben, komprimiert
-  5. pixelbasiert, verlustfrei, maximal 256 Farben, komprimiert
-  6. vektorbasiert, verlustfrei
-  7. pixelbasiert, verlustfrei, echtfarben, komprimiert
-  8. pixelbasiert, verlustfrei oder verlustbehaftet, echtfarben, komprimiert
+  3. pixelbasiert, verlustbehaftet, echtfarben, komprimiert
+  4. pixelbasiert, verlustfrei, echtfarben, komprimiert
+  5. vektorbasiert, verlustfrei
+  6. pixelbasiert, verlustfrei oder verlustbehaftet, echtfarben, komprimiert
+  7. vektorbasiert, verlustbehaftet
+  8. pixelbasiert, verlustfrei, maximal 256 Farben, komprimiert
 
 
 ## 3.21 JPEG in der Fotografie
@@ -197,17 +197,17 @@ Welche Eigenschaft des menschlichen Hörsinns wird vom MP3-Format genutzt?
 ## 3.23 Funktionsweise von MP3
 Welche Eigenschaft der folgenden Eigenschaften trifft auf das MP3-Format zu?
 
-  * [ ] bedient sich der Psychologie
-  * [ ] basiert auf dem Shannon-Theorem
-  * [ ] verringert die Datenmenge im Vergleich zu WAV
   * [ ] bedient sich der Trägheit der Luft als Medium
-  * [ ] hat eine variable Bitrate
-  * [ ] ist verlustfrei
   * [ ] speichert nur für den Menschen wahrnehmbare Anteile des Signals
-  * [ ] bedient sich der Psychoakustik
   * [ ] hat eine konstante Bitrate
+  * [ ] basiert auf dem Shannon-Theorem
+  * [ ] hat eine variable Bitrate
+  * [ ] verringert die Datenmenge im Vergleich zu WAV
   * [ ] ist verlustbehaftet
+  * [ ] bedient sich der Psychologie
   * [ ] reduziert die Auflösung des Signals in allen Frequenzbereichen
+  * [ ] bedient sich der Psychoakustik
+  * [ ] ist verlustfrei
 
 ## 3.24 Speicherverbrauch eines Bildes
 Ein Bild (Auflösung 640x466 Pixel) hat mit JPEG-Kompression (75% Qualität) eine Größe von 111.431 Byte. Wie viel Speicher würde man benötigen, wenn man es unkomprimiert ablegen wollte. Gehen Sie von 8 Bit pro Farbe ohne Alphakanal aus. Ignorieren Sie die Header und Metadaten.

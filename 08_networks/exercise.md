@@ -119,13 +119,13 @@ Um ein IP-Paket zustellen zu können, muss der Router die IP-Adresse zu der MAC-
 ## 8.23 Bridge vs. Router vs. Switch
 Ordnen Sie die folgenden Eigenschaften den jeweiligen Geräten (Bridge, Router, Switch) zu:
 
-  * Arbeitet in einem Netzwerksegment: ....
-  * Verbindet zwei Netzwerksegmente und arbeitet auf OSI-Level 2: ....
-  * Verteilt die Ethernet-Pakete an die einzelnen Hosts: ....
   * Verbindet verschiedene Subnetze miteinander: ....
+  * Verteilt die Ethernet-Pakete an die einzelnen Hosts: ....
+  * Verbindet zwei Netzwerksegmente und arbeitet auf OSI-Level 2: ....
+  * Arbeitet in einem Netzwerksegment: ....
   * Hat in jedem Subnetz ein Interface mit MAC- und IP-Adresse: ....
-  * Arbeitet auf der Sicherungsschicht: ....
   * Arbeitet auf der Vermittlungsschicht: ....
+  * Arbeitet auf der Sicherungsschicht: ....
 
 *Antworten:*
 
@@ -148,16 +148,16 @@ Wie lange braucht man ungefähr, um einen Roman mit 300 Seiten (30 Zeile mit 60 
 ## 8.25 Hidden-Station-Problem
 Was ist das Hidden-Station-Problem, auch Hidden-Node-Problem genannt?
 
-  * [ ] Eine Station sieht weder die anderen Teilnehmer, noch den Access-Point (AP)
-  * [ ] Eine Station ist vor allen Teilnehmern und dem Access-Point (AP) verborgen
-  * [ ] Der Access-Point (AP) sieht eine Station, andere Teilnehmer im Netz können sie nicht sehen
   * [ ] Eine Station versteckt sich absichtlich vor anderen
+  * [ ] Eine Station ist vor allen Teilnehmern und dem Access-Point (AP) verborgen
+  * [ ] Eine Station sieht weder die anderen Teilnehmer, noch den Access-Point (AP)
+  * [ ] Der Access-Point (AP) sieht eine Station, andere Teilnehmer im Netz können sie nicht sehen
 
 ## 8.26 Bitbreite von IPv4- und IPv6-Adressen
 Wie breit (in Bit) ist eine IPv4- bzw. eine IPv6-Adresse?
 
-  * IPv6: ....
   * IPv4: ....
+  * IPv6: ....
 
 *Antworten:*
 
@@ -172,36 +172,36 @@ Wie breit (in Bit) ist eine IPv4- bzw. eine IPv6-Adresse?
 ## 8.27 Uni-, Multi- und Broadcast
 Bitte ordnen Sie die Definitionen den richtigen Begriffen zu:
 
+  * Datenpakete werden an genau einen Host geschickt: ....
   * Datenpakete werden an mehrere Hosts in einem Netz geschickt: ....
   * Datenpakete werden an alle Hosts in einem Netz geschickt: ....
-  * Datenpakete werden an genau einen Host geschickt: ....
 
 *Antworten:*
 
-  1. Unicast
+  1. Multicast
   2. Broadcast
-  3. Multicast
+  3. Unicast
 
 
 ## 8.28 Netzmaske berechnen
 Gegeben sei ein IPv4-Netz mit einer /12-Netzmaske. Bestimmen Sie bitte für die IP-Adresse `173.194.69.102` die Netz-Adresse.
 
 
-  * [ ] `173.190.0.0`
-  * [ ] `173.192.69.0`
-  * [ ] `173.192.0.0`
   * [ ] `173.192.16.0`
   * [ ] `173.192.69.8`
+  * [ ] `173.192.69.0`
+  * [ ] `173.192.0.0`
+  * [ ] `173.190.0.0`
 
 ## 8.29 Netzmaske berechnen
 Gegeben sei ein IPv4-Netz mit einer /16-Netzmaske. Bestimmen Sie bitte für die IP-Adresse `8.8.19.240` die Netz-Adresse.
 
-  * [ ] `8.8.12.0`
   * [ ] `8.8.19.0`
-  * [ ] `8.8.19.32`
-  * [ ] `8.0.0.0`
-  * [ ] `8.8.19.240`
   * [ ] `8.8.0.0`
+  * [ ] `8.0.0.0`
+  * [ ] `8.8.19.32`
+  * [ ] `8.8.12.0`
+  * [ ] `8.8.19.240`
 
 ## 8.30 TCP vs. UDP
 Welche Unterschiede gibt es zwischen TCP und UDP? Ordnen Sie passend zu:
@@ -224,45 +224,45 @@ Welche Unterschiede gibt es zwischen TCP und UDP? Ordnen Sie passend zu:
 ## 8.31 Anhängsel an URL
 Worum handelt es sich bei dem Anhängsel an der URL (die Zahl nach dem Doppelpunkt), z.B. `http://joe.cs.hs-mannheim.de:8080`?
 
-  * [ ] IP-Suffix
-  * [ ] Benutzername
   * [ ] Pfad
-  * [ ] Timeout
-  * [ ] Subdomain
   * [ ] Port
+  * [ ] Subdomain
+  * [ ] Benutzername
+  * [ ] IP-Suffix
+  * [ ] Timeout
 
 ## 8.32 Arten von Adressen
 Bitte ordnen Sie die Begriffe und Definitionen korrekt zu:
 
-  * sind hierarchisch aufgebaut: ....
-  * sind 32 oder 128 Bit breit: ....
-  * dient der eindeutigen Identifikation im Internet: ....
-  * sind 48 Bit breit: ....
   * kann geroutet werden: ....
-  * ist dem Data Link Layer zuzuordnen: ....
+  * unterstützt kein Routing: ....
   * ist spezifisch für das Ethernet-Protokoll: ....
   * ist dem Network-Layer zuzuordnen: ....
-  * unterstützt kein Routing: ....
+  * sind 48 Bit breit: ....
+  * sind hierarchisch aufgebaut: ....
+  * ist dem Data Link Layer zuzuordnen: ....
+  * sind 32 oder 128 Bit breit: ....
+  * dient der eindeutigen Identifikation im Internet: ....
   * sind flach aufgebaut: ....
 
 *Antworten:*
 
-  1. IP-Adresse
-  2. TCP-Adresse
-  3. UDP-Adresse
-  4. ARP-Adresse
-  5. MAC-Adresse
+  1. UDP-Adresse
+  2. ARP-Adresse
+  3. MAC-Adresse
+  4. TCP-Adresse
+  5. IP-Adresse
 
 
 ## 8.33 Hub oder Switch
 Ordnen Sie die Eigenschaften passend zu:
 
 
-  * sendet die Datenpakete an alle Ports: ....
-  * sendet die Datenpakete nur an einen Port: ....
   * ist unsicherer: ....
-  * ist sicherer: ....
+  * sendet die Datenpakete nur an einen Port: ....
+  * sendet die Datenpakete an alle Ports: ....
   * vermeidet Netzwerkkollisionen: ....
+  * ist sicherer: ....
 
 *Antworten:*
 
