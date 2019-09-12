@@ -20,7 +20,7 @@ Achten Sie darauf, die Dokumente im UTF-8-Format abzulegen. Nur so ist eine plat
 
 ### Overleaf
 
- * Laden Sie die ZIP-Version der Vorlage [hier](https://github.com/informatik-mannheim/thesis-template/raw/master/latex/thesis-overleaf.zip) herunter.
+ * Laden Sie die ZIP-Version der Vorlage [hier](https://github.com/ei-lecture/assignments/raw/master/loesung_template.zip) herunter.
  * Melden Sie sich bei [Overleaf](https://www.overleaf.com) an und loggen Sie sich ein.
  * Gehen Sie auf "New Project" und wählen Sie "Upload Project"
  * Laden Sie die ZIP-Datei hoch.
