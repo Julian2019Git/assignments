@@ -38,10 +38,10 @@ Nennen Sie die zwei großen Gruppen von Schutzmaßnahmen in der IT-Sicherheit. W
 ## 11.7 Zugriffskontrolle
 Erläutern Sie das Prinzip des Triple-A (oder AAA) in der IT-Sicherheit.
 
-  * [ ] AAA steht für Authorization - Accounting - Automation
-  * [ ] AAA steht für Authentication - Authorization - Accounting
   * [ ] AAA steht für Authentication - Authorization - Accountability
   * [ ] AAA steht für Authorization - Availability - Accountability
+  * [ ] AAA steht für Authorization - Accounting - Automation
+  * [ ] AAA steht für Authentication - Authorization - Accounting
 
 ## 11.8 Authentifizierungsverfahren
 Benennen Sie drei verschiedene Authentifizierungsverfahren und jeweils deren primäre Schwäche. 
@@ -101,44 +101,44 @@ Erläutern Sie den folgenden Erklärungen die richtigen Begriffe zu:
 
 *Antworten:*
 
-  1. Trojaner
-  2. Zero-day Exploit
-  3. Virus
-  4. Angriffsvektor
-  5. Wurm
-  6. Rootkit
-  7. Malware
+  1. Virus
+  2. Trojaner
+  3. Angriffsvektor
+  4. Zero-day Exploit
+  5. Rootkit
+  6. Malware
+  7. Buffer-Overflow
   8. Command-and-Control Server
-  9. Exploit
-  10. Buffer-Overflow
+  9. Wurm
+  10. Exploit
 
 
 ## 11.18 Authentifizierungsverfahren
 Ordnen Sie den genannten Authentifizierungsverfahren deren jeweilige Schwächen zu:
 
   * Biometrisch: ....
-  * Challenge-Response: ....
   * Passwort: ....
+  * Challenge-Response: ....
 
 *Antworten:*
 
-  1. Daten können nicht mehr verändert werden
-  2. Schlüssel muss sicher verwahrt werden
-  3. kann einfach kopiert werden
+  1. Schlüssel muss sicher verwahrt werden
+  2. kann einfach kopiert werden
+  3. Daten können nicht mehr verändert werden
 
 
 ## 11.19 Symmetrische und Asymmetrische Verschlüsselung
 Bitte ordnen Sie die Eigenschaften den jeweiligen Verschlüsselungsverfahren zu:
 
   * AES (Advanced Encryption Standard): ....
-  * ECDL (Elliptic Curve Discrete Logarithm): ....
-  * RSA (Rivest-Shamir-Adleman): ....
-  * ein Schlüssel kann zum öffentlichen Schlüssel erklärt werden: ....
-  * Diffie-Hellman-Schlüsselaustausch: ....
-  * Schlüssel muss geheim gehalten werden: ....
-  * unterschiedliche Schlüssel für Ver- und Entschlüsselung: ....
   * derselbe Schlüssel für Ver- und Entschlüsselung: ....
   * DES (Data Encryption Standard): ....
+  * RSA (Rivest-Shamir-Adleman): ....
+  * Diffie-Hellman-Schlüsselaustausch: ....
+  * ECDL (Elliptic Curve Discrete Logarithm): ....
+  * unterschiedliche Schlüssel für Ver- und Entschlüsselung: ....
+  * ein Schlüssel kann zum öffentlichen Schlüssel erklärt werden: ....
+  * Schlüssel muss geheim gehalten werden: ....
 
 *Antworten:*
 
@@ -149,13 +149,13 @@ Bitte ordnen Sie die Eigenschaften den jeweiligen Verschlüsselungsverfahren zu:
 ## 11.20 Gruppen von Schutzmaßnahmen
 Geben Sie jeweils an, ob eine Maßnahme technisch oder organisatorisch ist:
 
-  * Backup regelmäßig durchführen: ....
-  * Vorgabe zur Passwort-Länge: ....
-  * Anti-Virus-Software: ....
-  * Firewall-Regeln: ....
-  * Software-Konfiguration: ....
-  * Regeln für den Umgang mit E-Mails: ....
   * 2-Faktor-Authentifizierung: ....
+  * Anti-Virus-Software: ....
+  * Regeln für den Umgang mit E-Mails: ....
+  * Software-Konfiguration: ....
+  * Firewall-Regeln: ....
+  * Vorgabe zur Passwort-Länge: ....
+  * Backup regelmäßig durchführen: ....
 
 *Antworten:*
 
@@ -201,25 +201,25 @@ Wie lange sollte man maximal warten, bis ein Update eingespielt wird, um das Ris
 ## 11.23 Digitale Signatur
 Wofür kann man die Technologie der "Digitalen Signatur" (im kryptographischen Sinn) einsetzen?
 
-  * [ ] Sicherer Austausch von Schlüsseln zwischen Kommunikationspartnern
-  * [ ] Sicheres Komprimieren von Dokumenten
-  * [ ] Verschlüsselung von Dokumenten
   * [ ] Nachweis, dass ein elektronisches Dokument nicht verändert wurde
-  * [ ] Integrität und Authentizität von Software-Installationspaketen bei der Installation
   * [ ] Nachweis des Authors eines elektronischen Dokumenten
+  * [ ] Sicherer Austausch von Schlüsseln zwischen Kommunikationspartnern
+  * [ ] Verschlüsselung von Dokumenten
+  * [ ] Integrität und Authentizität von Software-Installationspaketen bei der Installation
+  * [ ] Sicheres Komprimieren von Dokumenten
 
 ## 11.24 Sichere Passwörter
 Welche der Passwörter sind sicher?
 
-  * [ ] MickeyMouse
-  * [ ] mutti123
-  * [ ] Schirm4Hacker
-  * [ ] passwort
-  * [ ] qwertzuiop
-  * [ ] poiuztrewq=)(/&)
-  * [ ] qaywsxedcrfv
-  * [ ] 1w%&cv
   * [ ] gVHJQ2K2k.v9
+  * [ ] mutti123
+  * [ ] passwort
+  * [ ] MickeyMouse
+  * [ ] 1w%&cv
+  * [ ] Schirm4Hacker
+  * [ ] qaywsxedcrfv
+  * [ ] poiuztrewq=)(/&)
+  * [ ] qwertzuiop
 
 ## 11.25 Sichere Passwörter
 Angenommen ein Passwort besteht aus acht Zeichen aus dem Alphabet A-Z (26 Zeichen) und die Überprüfung des Passwortes dauert eine Millisekunde. Wie lange dauert es, alle möglichen Passwörter durchzuprobieren?
@@ -234,13 +234,13 @@ Angenommen ein Passwort besteht aus acht Zeichen aus dem Alphabet A-Z (26 Zeiche
 ## 11.26 Ablauf Challenge-Response-Verfahren
 Alice möchte sich gegenüber Bob per Challenge-Response-Verfahren authentifizieren. Wie läuft dies dann ab? 
 
-  * Bob vergleicht das empfangene E mit seinem selbst berechneten E. Stimmen beide überein, ist Alice wirklich Alice: ....
-  * Alice empfängt eine Zufallszahl Z von Bob: ....
-  * Bob sendet Alice eine Zufallszahl Z und berechnet ein Ergebnis E mithilfe einer Einwegfunktion E = F(Z, S): ....
-  * Alice sendet E an Bob: ....
-  * Alice berechnet das Ergebnis E der E = Einwegfunktion F(Z, S): ....
-  * Alice und Bob besitzen ein gemeinsames Geheimnis S: ....
   * Alice sendet Bob eine Aufforderung zum Senden der Challenge: ....
+  * Alice empfängt eine Zufallszahl Z von Bob: ....
+  * Bob vergleicht das empfangene E mit seinem selbst berechneten E. Stimmen beide überein, ist Alice wirklich Alice: ....
+  * Alice und Bob besitzen ein gemeinsames Geheimnis S: ....
+  * Alice sendet E an Bob: ....
+  * Bob sendet Alice eine Zufallszahl Z und berechnet ein Ergebnis E mithilfe einer Einwegfunktion E = F(Z, S): ....
+  * Alice berechnet das Ergebnis E der E = Einwegfunktion F(Z, S): ....
 
 *Antworten:*
 
@@ -268,15 +268,15 @@ Man hört und [sieht](https://youtu.be/odG2GX4_cUQ) häufiger, dass Autos mit Ke
 ## 11.30 Aussagen zum Challenge-Response-Verfahren
 Welche der folgenden Aussagen zu einem Challenge-Response-Verfahren sind korrekt? Gehen Sie davon aus, dass sich Alice gegenüber Bob authentifizieren will.
 
-  * [ ] Alice und Bob benötigen ein gemeinsames Geheimnis
-  * [ ] Das gemeinsame Geheimnis darf nicht wiederverwendet werden
+  * [ ] Alice muss aus der Challenge und dem Geheimnis einen neuen Wert berechnen
+  * [ ] Bob muss die Kommunikation starten
+  * [ ] Alice muss die Kommunikation starten
+  * [ ] Die Challenge darf nicht noch einmal verwendet werden
+  * [ ] Bob muss Alices Antwort mit seiner eigenen Berechnung vergleichen
   * [ ] Es kommt ein Public/Private-Key zum Einsatz
   * [ ] Bob erzeugt die Challenge und sendet sie an Alice
-  * [ ] Die Challenge darf nicht noch einmal verwendet werden
   * [ ] Bob muss aus der Challenge und dem Geheimnis einen neuen Wert berechnen
-  * [ ] Bob muss Alices Antwort mit seiner eigenen Berechnung vergleichen
-  * [ ] Alice muss die Kommunikation starten
-  * [ ] Bob muss die Kommunikation starten
+  * [ ] Alice und Bob benötigen ein gemeinsames Geheimnis
   * [ ] Alice erzeugt die Challenge und sendet sie an Bob
-  * [ ] Alice muss aus der Challenge und dem Geheimnis einen neuen Wert berechnen
+  * [ ] Das gemeinsame Geheimnis darf nicht wiederverwendet werden
 

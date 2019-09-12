@@ -8,15 +8,7 @@ Lässt sich die Zahl π als Nachricht übermitteln? Begründen Sie Ihre Antwort.
 Schätzungen zufolge besteht das Universum aus einer Tredezillion Atomen (10^78). Welche Bitbreite ist mindestens notwendig, um diese Zahl im Rechner zu speichern? Begründen Sie Ihre Antwort.
 
 
-## 2.3 Umwandlung zwischen Zahlensystemen (Ganzzahlen) - 198
-Bitte wandeln Sie die Zahl `198` (zur Basis 10) in ihre binäre Darstellung (Basis 2) um.
-
-
-## 2.4 Umwandlung zwischen Zahlensystemen (Ganzzahlen) - 173
-Bitte wandeln Sie die Zahl `173` (zur Basis 10) in ihre hexadezimale Darstellung (zur Basis 16) um.
-
-
-## 2.5 Umwandlung zwischen Zahlensystemen (Bruchzahlen)
+## 2.3 Umwandlung zwischen Zahlensystemen (Bruchzahlen)
 Vervollständigen Sie die leeren Felder:
 
 | Dezimal | Binär    | Oktal | Hexadezimal |
@@ -28,7 +20,7 @@ Vervollständigen Sie die leeren Felder:
 
 
 
-## 2.6 Umwandlung zwischen Zahlensystemen (Ganzzahlen)
+## 2.4 Umwandlung zwischen Zahlensystemen (Ganzzahlen)
 Vervollständigen Sie die leeren Felder:
 
 | Dezimal | Binär    | Oktal | Hexadezimal |
@@ -39,7 +31,7 @@ Vervollständigen Sie die leeren Felder:
 |         |          |       | 4AC         |
 
 
-## 2.7 Gleitkommazahlen nach IEEE
+## 2.5 Gleitkommazahlen nach IEEE
 Während der Fehlersuche stoßen Sie auf das folgende Speicherabbild:
 
 `C0 98 00 00 00 00 00 00`
@@ -52,20 +44,20 @@ Welche Werte werden dargestellt, wenn Sie die Werte
 Nehmen Sie für Ihre Betrachtung an, dass die Bytes in natürlicher Reihenfolge im Speicher abgelegt sind (Big-Endian-Format).
 
 
-## 2.8 Zweierkomplement
+## 2.6 Zweierkomplement
 Wandeln Sie die Dezimalzahl -126 in eine binäre Darstellung mit 8 Bit um. Verwenden Sie die Zweierkomplementdarstellung für die Zahl.
 
-## 2.9 Zweierkomplement
+## 2.7 Zweierkomplement
 Wandeln Sie die Dezimalzahl -1 in eine binäre Darstellung mit 8 Bit um. Verwenden Sie die Zweierkomplementdarstellung für die Zahl.
 
-## 2.10 Zweierkomplement
+## 2.8 Zweierkomplement
 Wandeln Sie die Dezimalzahl -77 in eine binäre Darstellung mit 8 Bit um. Verwenden Sie die Zweierkomplementdarstellung für die Zahl.
 
-## 2.11 Sinn des Zweierkomplements
+## 2.9 Sinn des Zweierkomplements
 Warum ist es sinnvoll, einen Wert im Zweierkomplement darzustellen, bzw. worin liegt der Vorteil zur Darstellung im Einerkomplement?
 
 
-## 2.12 Rechnen im Binärsystem
+## 2.10 Rechnen im Binärsystem
 Führen Sie die folgenden binären Rechenoperationen durch
 
   * `110101 + 11001 =`
@@ -77,21 +69,21 @@ Führen Sie die folgenden binären Rechenoperationen durch
   * `110,1001 − 101,11011 =`
 
 
-## 2.13 Rechnen im Binärsystem - Addition
+## 2.11 Rechnen im Binärsystem - Addition
 Bitte berechnen Sie binär, ohne in ein anderes Zahlensystem umzuwandeln: `110101 + 11001`
 
 
-## 2.14 Rechnen im Binärsystem - Addition
+## 2.12 Rechnen im Binärsystem - Addition
 Bitte berechnen Sie binär, ohne in ein anderes Zahlensystem umzuwandeln: `111011 + 11101`
 
 
-## 2.15 Rechnen im Binärsystem - Subtraktion
+## 2.13 Rechnen im Binärsystem - Subtraktion
 Bitte berechnen Sie binär, ohne in ein anderes Zahlensystem umzuwandeln: `111011 - 10111` (mit Zweierkomplement)
 
-## 2.16 Rechnen im Binärsystem - Subtraktion
+## 2.14 Rechnen im Binärsystem - Subtraktion
 Bitte berechnen Sie binär, ohne in ein anderes Zahlensystem umzuwandeln: `110001 - 1101101` (mit Zweierkomplement)
 
-## 2.17 Bild codieren
+## 2.15 Bild codieren
 Überlegen Sie sich ein Schema, wie das folgende Bild in Bits umgewandelt werden kann. Versuchen Sie die Daten so kompakt wie möglich abzulegen.
 
 ![](img/mario.png)
@@ -99,7 +91,7 @@ Bitte berechnen Sie binär, ohne in ein anderes Zahlensystem umzuwandeln: `11000
 Codieren Sie die erste und die letzte Zeile nach Ihrem Schema und geben Sie das Ergebnis an. Gruppieren Sie dabei die Bits in Bytes.
 
 
-## 2.18 Text codieren
+## 2.16 Text codieren
 Codieren Sie den folgenden Text in ISO-8859-1 und UTF-8.
 
 'Mögest du viel Spaß haben!'
@@ -107,15 +99,15 @@ Codieren Sie den folgenden Text in ISO-8859-1 und UTF-8.
 Geben Sie das Ergebnis als Bytes in hexadezimaler Schreibweise an.
 
 
-## 2.19 Sampling-Rate
+## 2.17 Sampling-Rate
 Warum haben CDs eine Abtastrate von 44,1 kHz?
 
 
-## 2.20 Datenmenge einer CD
+## 2.18 Datenmenge einer CD
 Eine CD zeichnet Audiosignale mit 16 Bit bei 44,1 kHz Abtastrate unkomprimiert auf. Wie groß wird eine Stereo-CD mit 70 Minuten Laufzeit ungefähr? Begründen Sie Ihre Antwort.
 
 
-## 2.21 Umrechnung von Speicherkapazitäten
+## 2.19 Umrechnung von Speicherkapazitäten
 Eine Festplatte ist mit einer Speicherkapazität von 4 TB angegeben. Wieviele Bytes können Sie darauf speichern? Begründen Sie Ihre Antwort.
 
 
