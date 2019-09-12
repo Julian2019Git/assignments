@@ -29,7 +29,6 @@ Sie haben sich für ein Studium der Informatik entschieden und sitzen an Ihrem e
   - Gebiete der Informatik
   - Bedeutung der Informatik in unserem Alltag
 
-
 ## Begriffe
 
   - Abakus
@@ -45,17 +44,14 @@ Sie haben sich für ein Studium der Informatik entschieden und sitzen an Ihrem e
   - Praktische Informatik
   - Technische Informatik
 
-
 ## Quellen
 
   * Herold, et al. "Grundlagen der Informatik", 3. Auflage, Pearson Studium, Halbergmoos 2017,  S. 25--45
   * Video: [Crash Course Computer Science: Early Computing](https://youtu.be/O5nskjZ_GoI)
 
-
 ## Übung
 
 Bitte bearbeiten Sie die [Übung](exercise.md) zu diesem Kapitel.
-
 
 ## Abgabe
 

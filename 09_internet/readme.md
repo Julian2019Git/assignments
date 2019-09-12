@@ -18,7 +18,6 @@ Netflix geht immer noch nicht. Sie haben zwar die Leitung wieder zusammengeflick
   - SSH (Secure Shell)
   - Auszeichnungssprache (markup language)
   - HyperText Markup Language (HTML)
-
 ## Quellen
 
   * Herold, et al. "Grundlagen der Informatik", 3. Auflage, Pearson Studium, Halbergmoos 2017, S. 477--511
@@ -28,7 +27,10 @@ Netflix geht immer noch nicht. Sie haben zwar die Leitung wieder zusammengeflick
   * Webpage: [w3schools: HTML5 Tutorial](https://www.w3schools.com/html/default.asp)
   * Video: [Crash Course Computer Science: The World Wide Web](https://youtu.be/guvsH5OFizE)
 
-
 ## Übung
 
 Bitte bearbeiten Sie die [Übung](exercise.md) zu diesem Kapitel.
+
+## Abgabe
+
+Sie müssen die Lösung zu den Übungen als PDF-Dokument in Moodle hochladen. Zum Erstellen der Lösung verwenden Sie bitte das entsprechende [LaTeX-Template](../loesung_template.tex), fügen Sie Ihre Antworten ein und erstellen Sie dann daraus das PDF. Beachten Sie zum Umgang mit LaTeX die [Anleitung](../readme_latex.md).

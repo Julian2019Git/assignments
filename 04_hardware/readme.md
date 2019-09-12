@@ -16,7 +16,6 @@ Sammeln Sie Informationen, wie Computer prinzipiell aufgebaut sind und aus welch
   - Speicher: RAM, Cache
   - Peripherie: Massenspeicher
 
-
 ## Begriffe
 
   - ALU
@@ -34,7 +33,6 @@ Sammeln Sie Informationen, wie Computer prinzipiell aufgebaut sind und aus welch
   - Sekundärspeicher
   - Steuerwerk
   - Tertiärspeicher
-
 ## Quellen
 
   * Herold, et al. "Grundlagen der Informatik", 3. Auflage, Pearson Studium, Halbergmoos 2017, S. 91--134
@@ -63,3 +61,7 @@ Sammeln Sie Informationen, wie Computer prinzipiell aufgebaut sind und aus welch
 ## Übung
 
 Bitte bearbeiten Sie die [Übung](exercise.md) zu diesem Kapitel.
+
+## Abgabe
+
+Sie müssen die Lösung zu den Übungen als PDF-Dokument in Moodle hochladen. Zum Erstellen der Lösung verwenden Sie bitte das entsprechende [LaTeX-Template](../loesung_template.tex), fügen Sie Ihre Antworten ein und erstellen Sie dann daraus das PDF. Beachten Sie zum Umgang mit LaTeX die [Anleitung](../readme_latex.md).

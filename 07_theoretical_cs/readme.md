@@ -1,9 +1,8 @@
-# 7. Theoretische Informatik 
+# 7. Theoretische Informatik
 
 > "Die erste echte KI wird den Turing-Test absichtlich nicht bestehen"
 
 Ihr Onkel ist im Außendienst einer großen Baufirma tätig und muss immer sehr viele Baustellen besuchen. Die Baustellen sind wild über Deutschland verteilt und er hat immer sehr wenig Zeit. Deshalb möchte er eine Route fahren, die ihn zu allen Baustellen führt aber insgesamt möglichst kurz ist. Da er von Ihrem Talent als Informatiker gehört hat, kommt er zu Ihnen und bittet Sie ein Programm zu schreiben. Er möchte wissen, wie lange das Programm denn wohl braucht, um die Route zu berechnen. Sie sind sich nicht sicher, ob man das überhaupt berechnen kann, machen sich aber an die Recherche, um überhaupt erst einmal die Theorie zu verstehen, bevor Sie mit der Programmierung beginnen.
-
 
 ## Themen
 
@@ -16,7 +15,6 @@ Ihr Onkel ist im Außendienst einer großen Baufirma tätig und muss immer sehr 
   - Determinismus / Nicht-Determinismus
   - Betrachtung von Laufzeiten
   - P, NP, NP-Vollständig
-
 
 ## Quellen
 
@@ -40,3 +38,7 @@ Ihr Onkel ist im Außendienst einer großen Baufirma tätig und muss immer sehr 
 ## Übung
 
 Bitte bearbeiten Sie die [Übung](exercise.md) zu diesem Kapitel.
+
+## Abgabe
+
+Sie müssen die Lösung zu den Übungen als PDF-Dokument in Moodle hochladen. Zum Erstellen der Lösung verwenden Sie bitte das entsprechende [LaTeX-Template](../loesung_template.tex), fügen Sie Ihre Antworten ein und erstellen Sie dann daraus das PDF. Beachten Sie zum Umgang mit LaTeX die [Anleitung](../readme_latex.md).

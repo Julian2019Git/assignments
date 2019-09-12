@@ -4,7 +4,6 @@
 
 Das Semester neigt sich dem Ende zu aber die Aufgaben und Themen in Ihrer Lieblingsvorlesung Einführung in die Informatik nehmen einfach kein Ende. Sie überlegen sich, dass Sie all die neuen Begriffe abspeichern wollen - aber wie? Sie entscheiden sich, eine Datenbank zu entwerfen und mit den Daten aus der Vorlesung zu befüllen.
 
-
 ## Themen
 
   - Begriffe (Daten, Information, ...)
@@ -12,7 +11,6 @@ Das Semester neigt sich dem Ende zu aber die Aufgaben und Themen in Ihrer Liebli
   - Datenmodelle
   - Abfragesprachen
   - SQL als wichtigste Abfragesprache
-
 ## Begriffe
 
   - DDL
@@ -25,7 +23,6 @@ Das Semester neigt sich dem Ende zu aber die Aufgaben und Themen in Ihrer Liebli
   - Primärschlüssel
   - Fremdschlüssel
   - Datenmodell
-
 ## Quellen
 
   * Herold, et al. "Grundlagen der Informatik", 3. Auflage, Pearson Studium, Halbergmoos 2017, S. 519--530
@@ -35,7 +32,10 @@ Das Semester neigt sich dem Ende zu aber die Aufgaben und Themen in Ihrer Liebli
   * Video: [TheSimpleInformatics: SQL Tabellenerzeugung mit DDL - SQL 2](https://youtu.be/i-W5bos0LlE)
   * Video: [TheSimpleInformatics: SQL Schlüssel einfach erklärt - SQL 3](https://youtu.be/QDmJBSgnUEo)
 
-
 ## Übung
 
 Bitte bearbeiten Sie die [Übung](exercise.md) zu diesem Kapitel.
+
+## Abgabe
+
+Sie müssen die Lösung zu den Übungen als PDF-Dokument in Moodle hochladen. Zum Erstellen der Lösung verwenden Sie bitte das entsprechende [LaTeX-Template](../loesung_template.tex), fügen Sie Ihre Antworten ein und erstellen Sie dann daraus das PDF. Beachten Sie zum Umgang mit LaTeX die [Anleitung](../readme_latex.md).

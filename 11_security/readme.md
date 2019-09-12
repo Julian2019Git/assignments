@@ -26,7 +26,6 @@ Beschaffen Sie sich Informationen zu den Prinzipien der IT-Sicherheit und auf we
   - Datenschutz / Überwachungsfreiheit
   - Sicherheit beim Surfen
 
-
 ## Begriffe
 
   - Authentifizierung
@@ -66,7 +65,6 @@ Beschaffen Sie sich Informationen zu den Prinzipien der IT-Sicherheit und auf we
   - Window of Exposure
   - Zero-Day Exploit
 
-
 ## Quellen
 
   * Webpage: [Easy4me: IT-Security, incl. Quiz](https://www.easy4me.info/microsoft-office-20072010/modul-8/)
@@ -76,7 +74,10 @@ Beschaffen Sie sich Informationen zu den Prinzipien der IT-Sicherheit und auf we
   * Video: [Crash Course Computer Science: Cryptography](https://youtu.be/jhXCTbFnK8o)
   * Video: [IST OnlineLearning: Challenge-Response Authentication](https://youtu.be/CqF0qacZgPQ)
 
-
 ## Übung
 
 Bitte bearbeiten Sie die [Übung](exercise.md) zu diesem Kapitel.
+
+## Abgabe
+
+Sie müssen die Lösung zu den Übungen als PDF-Dokument in Moodle hochladen. Zum Erstellen der Lösung verwenden Sie bitte das entsprechende [LaTeX-Template](../loesung_template.tex), fügen Sie Ihre Antworten ein und erstellen Sie dann daraus das PDF. Beachten Sie zum Umgang mit LaTeX die [Anleitung](../readme_latex.md).

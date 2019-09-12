@@ -29,7 +29,6 @@ Der Besuch bei der Großmutter ist gut gelaufen und sie war ganz begeistert von 
   - Maßeinheiten für Datenmengen
   - Speicherung von Bildern und Tönen im Computer
   - Nyquist-Shannon-Abtasttheorem
-
 ## Begriffe
 
   - Basiszahl
@@ -48,7 +47,6 @@ Der Besuch bei der Großmutter ist gut gelaufen und sie war ganz begeistert von 
   - Pixel
   - Abtastrate
   - Zweierkomplement
-
 ## Quellen
 
   * Herold, et al. "Grundlagen der Informatik", 3. Auflage, Pearson Studium, Halbergmoos 2017, S. 47--78
@@ -65,7 +63,10 @@ Der Besuch bei der Großmutter ist gut gelaufen und sie war ganz begeistert von 
   * Video: [TheSimpleInformatics: p-adische Zahlendarstellung - Daten- und Zeichendarstellung 2](https://youtu.be/zqlPXslQL8)
   * Video: [Crash Course Computer Science: Representing Numbers and Letters with Binary](https://youtu.be/1GSjbWt0c9M)
 
-
 ## Übung
 
 Bitte bearbeiten Sie die [Übung](exercise.md) zu diesem Kapitel.
+
+## Abgabe
+
+Sie müssen die Lösung zu den Übungen als PDF-Dokument in Moodle hochladen. Zum Erstellen der Lösung verwenden Sie bitte das entsprechende [LaTeX-Template](../loesung_template.tex), fügen Sie Ihre Antworten ein und erstellen Sie dann daraus das PDF. Beachten Sie zum Umgang mit LaTeX die [Anleitung](../readme_latex.md).

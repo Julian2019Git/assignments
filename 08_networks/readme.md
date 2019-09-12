@@ -29,7 +29,6 @@ Schauen Sie sich Informationen zum Aufbau und zur Funktion von Computernetzen an
   - Hub
   - DHCP (Dynamic Host Configuration Protocol)
   - Netzmaske
-
 ## Quellen
 
   * Herold, et al. "Grundlagen der Informatik", 3. Auflage, Pearson Studium, Halbergmoos 2017, S. 463--475
@@ -42,9 +41,11 @@ Schauen Sie sich Informationen zum Aufbau und zur Funktion von Computernetzen an
   * Video: [ Informatik Lernvideo: Netzwerke und Verteilte Systeme](https://youtu.be/UCj3NpoUWys)
   * Video: [Crash Course Computer Science: Computer Networks](https://youtu.be/3QhU9jd03a0)
   * Video: [Crash Course Computer Science: The Internet](https://youtu.be/AEaKrq3SpW8)
-  
 
 ## Übung
 
 Bitte bearbeiten Sie die [Übung](exercise.md) zu diesem Kapitel.
 
+## Abgabe
+
+Sie müssen die Lösung zu den Übungen als PDF-Dokument in Moodle hochladen. Zum Erstellen der Lösung verwenden Sie bitte das entsprechende [LaTeX-Template](../loesung_template.tex), fügen Sie Ihre Antworten ein und erstellen Sie dann daraus das PDF. Beachten Sie zum Umgang mit LaTeX die [Anleitung](../readme_latex.md).

@@ -119,13 +119,13 @@ Um ein IP-Paket zustellen zu können, muss der Router die IP-Adresse zu der MAC-
 ## 8.23 Bridge vs. Router vs. Switch
 Ordnen Sie die folgenden Eigenschaften den jeweiligen Geräten (Bridge, Router, Switch) zu:
 
-  * Verbindet zwei Netzwerksegmente und arbeitet auf OSI-Level 2: ....
-  * Hat in jedem Subnetz ein Interface mit MAC- und IP-Adresse: ....
   * Arbeitet auf der Sicherungsschicht: ....
+  * Hat in jedem Subnetz ein Interface mit MAC- und IP-Adresse: ....
+  * Arbeitet in einem Netzwerksegment: ....
+  * Verbindet zwei Netzwerksegmente und arbeitet auf OSI-Level 2: ....
+  * Verbindet verschiedene Subnetze miteinander: ....
   * Verteilt die Ethernet-Pakete an die einzelnen Hosts: ....
   * Arbeitet auf der Vermittlungsschicht: ....
-  * Arbeitet in einem Netzwerksegment: ....
-  * Verbindet verschiedene Subnetze miteinander: ....
 
 *Antworten:*
 
@@ -148,10 +148,10 @@ Wie lange braucht man ungefähr, um einen Roman mit 300 Seiten (30 Zeile mit 60 
 ## 8.25 Hidden-Station-Problem
 Was ist das Hidden-Station-Problem, auch Hidden-Node-Problem genannt?
 
-  * [ ] Eine Station versteckt sich absichtlich vor anderen
   * [ ] Eine Station ist vor allen Teilnehmern und dem Access-Point (AP) verborgen
   * [ ] Der Access-Point (AP) sieht eine Station, andere Teilnehmer im Netz können sie nicht sehen
   * [ ] Eine Station sieht weder die anderen Teilnehmer, noch den Access-Point (AP)
+  * [ ] Eine Station versteckt sich absichtlich vor anderen
 
 ## 8.26 Bitbreite von IPv4- und IPv6-Adressen
 Wie breit (in Bit) ist eine IPv4- bzw. eine IPv6-Adresse?
@@ -178,9 +178,9 @@ Bitte ordnen Sie die Definitionen den richtigen Begriffen zu:
 
 *Antworten:*
 
-  1. Unicast
+  1. Broadcast
   2. Multicast
-  3. Broadcast
+  3. Unicast
 
 
 ## 8.28 Netzmaske berechnen
@@ -189,19 +189,19 @@ Gegeben sei ein IPv4-Netz mit einer /12-Netzmaske. Bestimmen Sie bitte für die 
 
   * [ ] `173.192.69.0`
   * [ ] `173.192.0.0`
-  * [ ] `173.192.16.0`
-  * [ ] `173.190.0.0`
   * [ ] `173.192.69.8`
+  * [ ] `173.190.0.0`
+  * [ ] `173.192.16.0`
 
 ## 8.29 Netzmaske berechnen
 Gegeben sei ein IPv4-Netz mit einer /16-Netzmaske. Bestimmen Sie bitte für die IP-Adresse `8.8.19.240` die Netz-Adresse.
 
-  * [ ] `8.8.0.0`
+  * [ ] `8.8.12.0`
   * [ ] `8.8.19.240`
   * [ ] `8.8.19.0`
   * [ ] `8.0.0.0`
+  * [ ] `8.8.0.0`
   * [ ] `8.8.19.32`
-  * [ ] `8.8.12.0`
 
 ## 8.30 TCP vs. UDP
 Welche Unterschiede gibt es zwischen TCP und UDP? Ordnen Sie passend zu:
@@ -224,34 +224,34 @@ Welche Unterschiede gibt es zwischen TCP und UDP? Ordnen Sie passend zu:
 ## 8.31 Anhängsel an URL
 Worum handelt es sich bei dem Anhängsel an der URL (die Zahl nach dem Doppelpunkt), z.B. `http://joe.cs.hs-mannheim.de:8080`?
 
-  * [ ] Subdomain
-  * [ ] Pfad
-  * [ ] Benutzername
-  * [ ] Port
   * [ ] Timeout
   * [ ] IP-Suffix
+  * [ ] Pfad
+  * [ ] Benutzername
+  * [ ] Subdomain
+  * [ ] Port
 
 ## 8.32 Arten von Adressen
 Bitte ordnen Sie die Begriffe und Definitionen korrekt zu:
 
-  * sind 32 oder 128 Bit breit: ....
   * kann geroutet werden: ....
-  * ist dem Network-Layer zuzuordnen: ....
+  * sind flach aufgebaut: ....
+  * ist dem Data Link Layer zuzuordnen: ....
+  * sind 32 oder 128 Bit breit: ....
   * sind 48 Bit breit: ....
   * sind hierarchisch aufgebaut: ....
-  * ist dem Data Link Layer zuzuordnen: ....
-  * ist spezifisch für das Ethernet-Protokoll: ....
+  * ist dem Network-Layer zuzuordnen: ....
   * dient der eindeutigen Identifikation im Internet: ....
   * unterstützt kein Routing: ....
-  * sind flach aufgebaut: ....
+  * ist spezifisch für das Ethernet-Protokoll: ....
 
 *Antworten:*
 
-  1. IP-Adresse
-  2. MAC-Adresse
-  3. UDP-Adresse
-  4. ARP-Adresse
-  5. TCP-Adresse
+  1. TCP-Adresse
+  2. ARP-Adresse
+  3. MAC-Adresse
+  4. UDP-Adresse
+  5. IP-Adresse
 
 
 ## 8.33 Hub oder Switch
@@ -259,10 +259,10 @@ Ordnen Sie die Eigenschaften passend zu:
 
 
   * vermeidet Netzwerkkollisionen: ....
-  * ist unsicherer: ....
-  * sendet die Datenpakete an alle Ports: ....
   * sendet die Datenpakete nur an einen Port: ....
   * ist sicherer: ....
+  * ist unsicherer: ....
+  * sendet die Datenpakete an alle Ports: ....
 
 *Antworten:*
 

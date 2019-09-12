@@ -31,7 +31,6 @@ Sie haben so viel gelernt über die Darstellung von Daten im Computer, dass Sie 
   - Lempel-Ziv-Kompression
   - Bild-Formate (Vektor- und Bitmap-Grafik)
 
-
 ## Begriffe
 
   - Cyclic Reundancy Check
@@ -48,7 +47,6 @@ Sie haben so viel gelernt über die Darstellung von Daten im Computer, dass Sie 
   - Kompression: Verlustbehaftete, verlustfrei
   - Wörterbuch
   - k-aus-n-Code
-
 ## Quellen
 
   * Herold, et al. "Grundlagen der Informatik", 3. Auflage, Pearson Studium, Halbergmoos 2017, S. 749--798
@@ -66,3 +64,7 @@ Sie haben so viel gelernt über die Darstellung von Daten im Computer, dass Sie 
 ## Übung
 
 Bitte bearbeiten Sie die [Übung](exercise.md) zu diesem Kapitel.
+
+## Abgabe
+
+Sie müssen die Lösung zu den Übungen als PDF-Dokument in Moodle hochladen. Zum Erstellen der Lösung verwenden Sie bitte das entsprechende [LaTeX-Template](../loesung_template.tex), fügen Sie Ihre Antworten ein und erstellen Sie dann daraus das PDF. Beachten Sie zum Umgang mit LaTeX die [Anleitung](../readme_latex.md).

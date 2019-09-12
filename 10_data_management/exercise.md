@@ -73,10 +73,10 @@ _ASSIGNMENT_
 
 Wie kann man die Liste aller Job-Bezeichnungen in der Personalabteilung finden? Übertragen Sie Ihre Antworten in ein SQL-Statements.
 
-  * [ ] `SELECT * FROM JOB WHERE Dept ='Personnel'`
-  * [ ] `FIND * FROM JOB WHERE Dept ='Personnel'`
   * [ ] `FIND JOB IN Table WHERE Employee ='Personnel'`
+  * [ ] `SELECT * FROM JOB WHERE Dept ='Personnel'`
   * [ ] `SELECT * FROM EMPLOYEE WHERE Dept ='Personnel'`
+  * [ ] `FIND * FROM JOB WHERE Dept ='Personnel'`
   * [ ] `SELECT JOB FROM Dept WHERE Employee ='Personnel'`
 
 ## 10.6 Beziehungen zwischen Tabellen
@@ -99,8 +99,8 @@ Erweitern Sie die Datenbank aus der vorherigen Aufgabe um die Information, welch
 Ordnen Sie die Aufgaben einer Anwendungssoftware und eines Datenbanksystems zu.
 
   * enthält die Daten: ....
-  * erlaubt eine konsistente Sicherung der Daten: ....
   * enthält die Geschäftsregeln: ....
+  * erlaubt eine konsistente Sicherung der Daten: ....
   * bietet die Daten anderen Systemen an: ....
 
 *Antworten:*
@@ -112,29 +112,29 @@ Ordnen Sie die Aufgaben einer Anwendungssoftware und eines Datenbanksystems zu.
 ## 10.11 SQL
 Ordnen Sie den Aufgaben die jeweiligen SQL-Befehlen zu:
 
-  * Tabellen löschen: ....
-  * Tabellen anlegen: ....
-  * Indices anlegen: ....
-  * Daten aus einer Tabelle suchen: ....
   * Indices löschen: ....
+  * Tabellen löschen: ....
   * Daten in Tabellen einfügen: ....
   * Daten aus Tabellen löschen: ....
+  * Daten aus einer Tabelle suchen: ....
+  * Indices anlegen: ....
+  * Tabellen anlegen: ....
 
 *Antworten:*
 
-  1. `PURGE`
-  2. `CREATE`
-  3. `INSERT`
-  4. `INDEX`
-  5. `SEARCH`
-  6. `OBLITERATE`
-  7. `DELETE`
-  8. `UNTABLE`
-  9. `ADD`
-  10. `MAKE`
-  11. `SELECT`
-  12. `TABLE`
-  13. `DROP`
+  1. `UNTABLE`
+  2. `TABLE`
+  3. `SELECT`
+  4. `CREATE`
+  5. `OBLITERATE`
+  6. `DELETE`
+  7. `INSERT`
+  8. `SEARCH`
+  9. `INDEX`
+  10. `DROP`
+  11. `PURGE`
+  12. `MAKE`
+  13. `ADD`
 
 
 ## 10.12 Relationen lesen
@@ -167,9 +167,9 @@ _ASSIGNMENT_
 
 Wer ist der Manager des Vertriebs (Sales)?
 
+  * [ ] E. Baker
   * [ ] G. Smith
   * [ ] H. Clark
-  * [ ] E. Baker
 
 ## 10.13 Relationen lesen
 Beantworten Sie die folgende Frage basierend auf der unten dargestellten Datenbankrelation:
@@ -210,20 +210,20 @@ In einem Datenbankschema sollen Dirigenten und die von ihnen aufgeführten Stüc
 
 Wie würden Sie diese Art von Daten modellieren?
 
-  * [ ] Tabellen `DIRIGENT` und `STUECK`
-  * [ ] Tabellen `DIRIGENT` und `STUECK` und Verknüpfungstabelle
-  * [ ] Tabelle `DIRIGENT_UND_STUECK`
-  * [ ] Tabellen `DIRIGENT` und `STUECK`. Der Primärschlüssel von `DIRIGENT` wird zum Fremdschlüssel in `STUECK`
   * [ ] Tabellen `DIRIGENT` und `STUECK`. Der Primärschlüssel von `STUECK` wird zum Fremdschlüssel in `DIRIGENT`
+  * [ ] Tabellen `DIRIGENT` und `STUECK` und Verknüpfungstabelle
+  * [ ] Tabellen `DIRIGENT` und `STUECK`. Der Primärschlüssel von `DIRIGENT` wird zum Fremdschlüssel in `STUECK`
+  * [ ] Tabellen `DIRIGENT` und `STUECK`
+  * [ ] Tabelle `DIRIGENT_UND_STUECK`
 
 ## 10.15 Beziehungen zwischen Tabellen
 Wie werden die verschiedenen Beziehungen in einer Datenbank dargestellt? Wählen Sie die richtigen Aussagen aus:
 
-  * [ ] bei m-n Beziehungen gibt es eine weitere Tabelle, die die Primärschlüssel der zu verknüpfenden Einträge enthält
   * [ ] bei 1-n Beziehungen ist der Primärschlüssel einer Tabelle der Fremdschlüssel einer anderen Tabelle
-  * [ ] bei 1-n Beziehungen werden die Einträge einer Tabelle an die andere angehängt
   * [ ] bei m-n Beziehungen werden die Einträge einer Tabelle an die andere angehängt
   * [ ] bei m-n Beziehungen ist der Primärschlüssel einer Tabelle der Fremdschlüssel einer anderen Tabelle
+  * [ ] bei 1-n Beziehungen werden die Einträge einer Tabelle an die andere angehängt
+  * [ ] bei m-n Beziehungen gibt es eine weitere Tabelle, die die Primärschlüssel der zu verknüpfenden Einträge enthält
   * [ ] bei 1-n Beziehungen gibt es eine weitere Tabelle, die die Primärschlüssel der zu verknüpfenden Einträge enthält
 
 ## 10.16 Transaktion
@@ -259,11 +259,11 @@ _WERK_
 
 Welche Stücke sind von John Cage?
 
-  * [ ] Abrazzo-Oper
-  * [ ] 4:33
-  * [ ] Englische Suiten
-  * [ ] Triosonaten
-  * [ ] Imaginary Landscapes
   * [ ] Magnificat
+  * [ ] Abrazzo-Oper
+  * [ ] Imaginary Landscapes
+  * [ ] Englische Suiten
   * [ ] Gewidment
+  * [ ] Triosonaten
+  * [ ] 4:33
 

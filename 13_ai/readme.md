@@ -12,7 +12,6 @@ Heute wollen Sie sich von Ihrem anstrengenden ersten Semester erholen und sich e
   - Computer Vision
   - Spracherkennung
   - Sprachsynthese
-
 ## Begriffe
 
   - Künstliche Intelligenz
@@ -44,7 +43,6 @@ Heute wollen Sie sich von Ihrem anstrengenden ersten Semester erholen und sich e
   - Spracherkennung
   - Sprachsynthese
 
-
 ## Quellen
 
   * Wolfgang Ertel "Grundkurs Künstliche Intelligenz: Eine praxisorientierte Einführung", 4. Aufl., Springer Vieweg, Halbergmoos 2016, S. 749--798
@@ -63,8 +61,11 @@ Heute wollen Sie sich von Ihrem anstrengenden ersten Semester erholen und sich e
   * Webpage: [Juan Añover: Types of AI](https://futurism.com/images/types-of-ai-from-reactive-to-self-aware-infographic)
   * Webpage: [MIT: Moral Machine](http://moralmachine.mit.edu/hl/de)
 
-
 ## Übung
 
 Bitte bearbeiten Sie die [Übung](exercise.md) zu diesem Kapitel.
+
+## Abgabe
+
+Sie müssen die Lösung zu den Übungen als PDF-Dokument in Moodle hochladen. Zum Erstellen der Lösung verwenden Sie bitte das entsprechende [LaTeX-Template](../loesung_template.tex), fügen Sie Ihre Antworten ein und erstellen Sie dann daraus das PDF. Beachten Sie zum Umgang mit LaTeX die [Anleitung](../readme_latex.md).
 
