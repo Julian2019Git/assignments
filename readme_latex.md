@@ -1,4 +1,4 @@
-# Erstellend er Lösungen mit LaTeX
+# Erstellen der Lösungen mit LaTeX
 
 ## Werkzeuge
 
@@ -6,12 +6,12 @@ Sie können entweder die Datei lokal auf Ihrem Rechner kompilieren oder Sie nutz
 
 ### Lokales Erzeugen
 
-Sie müssen LaTeX auf Ihrem Rechner installieren. Bei Linux erfolgt dies einfach über den Paketmanager der verwendeten Distribution, z.B. `sudo apt install texlive-full`. Für Windows und MacOS empfehlen sich:
+Sie müssen LaTeX auf Ihrem Rechner installieren. Bei Linux erfolgt dies einfach über den Paketmanager der verwendeten Distribution, z.B. `sudo apt install texlive-full` für Ubuntu. Für Windows und MacOS empfehlen sich:
 
   * [MikTeX](http://miktex.org/) für Windows
   * [MacTeX](http://tug.org/mactex/) für MacOS
 
-Zum Editieren der Datei verwenden Sie entweder einen normalen Texteditor (z.B. Visual Studio Code) oder eine integrierte Entwicklungsumgebung. Hierbei haben Sich folgende bewährt:
+Zum Editieren der Datei verwenden Sie entweder einen normalen Texteditor (z.B. Visual Studio Code) oder eine integrierte Entwicklungsumgebung. Hierbei haben sich folgende bewährt:
 
   * [TeXnicenter](http://www.texniccenter.org/) für Windows (siehe unten)
   * [Texmaker](http://www.xm1math.net/texmaker/) für Windows, MacOS und Linux
