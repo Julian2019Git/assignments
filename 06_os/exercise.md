@@ -1,5 +1,7 @@
 # 6. Betriebssysteme - Übungen
 
+<!-- Chapter: 6 -->
+
 Für die Ausführung einiger dieser Übungen benötigen Sie ein funktionierendes Linux-System. Hierzu können Sie entweder
 
   * Ein eigenes Linux in einer virtuellen Maschine installieren (z.B. [VirtualBox](https://www.virtualbox.org) mit [Ubuntu](www.ubuntu.com))
@@ -42,9 +44,9 @@ Finden Sie heraus, welchen Inhalt die Datei `/etc/exports` hat und geben Sie die
 Öffnen Sie auf einem Rechner mit dem Betriebssystem Linux eine Shell (Terminal). Verwenden Sie das Kommando `man`, um sich die Hilfe zum Kommando `ls` anzusehen. Welche Aufgabe hat die Option `-h` beim Kommando `ls`?
 
 
+  * [ ] Zeigt den Inhalt das Hauptverzeichnisses an
   * [ ] Zeigt die Größen mit zusätzlichen Einheiten an
   * [ ] Zeigt die Hilfeseite für das Kommando an
-  * [ ] Zeigt den Inhalt das Hauptverzeichnisses an
 
 ## 6.6 Verzeichnisse
 Öffnen Sie auf einem Rechner mit dem Betriebssystem Linux eine Shell (Terminal).
@@ -173,30 +175,30 @@ Wie nennt man den Teil des Betriebssystems, der im privilegierten Modus läuft?
 Wie nennt man den Vorgang in einem Betriebssystem, der für die Zuordnung der CPU(s) zu den abzuarbeitenden Prozessen zuständig ist?
 
   * [ ] work plan
-  * [ ] Mutual Exclusion
   * [ ] kritischer Bereich
   * [ ] Scheduling
+  * [ ] Mutual Exclusion
 
 ## 6.18 Threads
 Was ist ein Thread aus Sicht des Betriebssystems?
 
-  * [ ] die Menge aller gleichzeitig ausführbaren Befehle eines Programms
   * [ ] eine Menge parallel ausführbarer Programme
-  * [ ] eine Menge von beliebigen auszuführenden Befehlen unterschiedlicher Programme
   * [ ] eine Folge von Befehlen aus unterschiedlichen Programmen, jeweils 1 Befehl pro Programm
+  * [ ] die Menge aller gleichzeitig ausführbaren Befehle eines Programms
   * [ ] eine Folge von sequentiell auszuführenden Befehlen innerhalb eines Programms
+  * [ ] eine Menge von beliebigen auszuführenden Befehlen unterschiedlicher Programme
 
 ## 6.19 Hilfe holen
 Wie können Sie sich die Hilfeseiten zum Kommando `sort` anzeigen lassen?
 
-  * [ ] `sort -help`
-  * [ ] `cat sort`
-  * [ ] `ls sort`
   * [ ] `man sort`
-  * [ ] `help sort`
   * [ ] `sort -h`
-  * [ ] `less sort`
+  * [ ] `cat sort`
+  * [ ] `sort -help`
   * [ ] `support sort`
+  * [ ] `less sort`
+  * [ ] `ls sort`
+  * [ ] `help sort`
 
 ## 6.20 Berechtigungen
 Sie sehen in einem Verzeichnis den folgenden Eintrag:
@@ -207,19 +209,19 @@ Sie sehen in einem Verzeichnis den folgenden Eintrag:
 
 Was können Sie über die Berechtigungen dieser Datei sagen?
 
-  * [ ] Der Benutzer darf die Datei lesen
-  * [ ] Die Datei gehört der Gruppe `staff`
-  * [ ] Jeder beliebige Benutzer darf die Datei schreiben
-  * [ ] Der Benutzer darf die Datei schreiben
-  * [ ] Die Datei gehört dem Benutzer `thomas`
-  * [ ] Die Gruppe darf die Datei lesen
   * [ ] Die Gruppe darf die Datei ausführen
-  * [ ] Die Datei gehört der Gruppe `thomas`
+  * [ ] Der Benutzer darf die Datei ausführen
   * [ ] Die Datei gehört dem Benutzer `staff`
-  * [ ] Die Gruppe darf die Datei schreiben
+  * [ ] Der Benutzer darf die Datei schreiben
   * [ ] Jeder beliebige Benutzer darf die Datei lesen
   * [ ] Jeder beliebige Benutzer darf die Datei ausführen
-  * [ ] Der Benutzer darf die Datei ausführen
+  * [ ] Die Gruppe darf die Datei lesen
+  * [ ] Jeder beliebige Benutzer darf die Datei schreiben
+  * [ ] Der Benutzer darf die Datei lesen
+  * [ ] Die Datei gehört der Gruppe `thomas`
+  * [ ] Die Datei gehört dem Benutzer `thomas`
+  * [ ] Die Gruppe darf die Datei schreiben
+  * [ ] Die Datei gehört der Gruppe `staff`
 
 ## 6.21 Berechtigungen
 Sie sehen in einem Verzeichnis den folgenden Eintrag:
@@ -230,19 +232,19 @@ Sie sehen in einem Verzeichnis den folgenden Eintrag:
 
 Was können Sie über die Berechtigungen dieser Datei sagen?
 
-  * [ ] Die Gruppe darf die Datei lesen
-  * [ ] Die Datei gehört dem Benutzer `staff`
-  * [ ] Der Benutzer darf die Datei lesen
-  * [ ] Die Datei gehört dem Benutzer `thomas`
-  * [ ] Die Gruppe darf die Datei schreiben
-  * [ ] Jeder beliebige Benutzer darf die Datei ausführen
-  * [ ] Die Gruppe darf die Datei ausführen
-  * [ ] Die Datei gehört der Gruppe `thomas`
-  * [ ] Der Benutzer darf die Datei ausführen
   * [ ] Jeder beliebige Benutzer darf die Datei lesen
-  * [ ] Der Benutzer darf die Datei schreiben
-  * [ ] Die Datei gehört der Gruppe `staff`
+  * [ ] Die Datei gehört dem Benutzer `thomas`
+  * [ ] Jeder beliebige Benutzer darf die Datei ausführen
+  * [ ] Die Gruppe darf die Datei lesen
+  * [ ] Die Datei gehört der Gruppe `thomas`
   * [ ] Jeder beliebige Benutzer darf die Datei schreiben
+  * [ ] Die Datei gehört der Gruppe `staff`
+  * [ ] Der Benutzer darf die Datei ausführen
+  * [ ] Der Benutzer darf die Datei lesen
+  * [ ] Die Gruppe darf die Datei schreiben
+  * [ ] Der Benutzer darf die Datei schreiben
+  * [ ] Die Gruppe darf die Datei ausführen
+  * [ ] Die Datei gehört dem Benutzer `staff`
 
 ## 6.22 Unix-Kommandos
 Bitte ordnen Sie den Unix-Kommandos ihre jeweilige Aufgabe zu:
@@ -272,26 +274,26 @@ Bitte ordnen Sie den Unix-Kommandos ihre jeweilige Aufgabe zu:
 
 *Antworten:*
 
-  1. Benutzen Plattenplatz anzeigen
-  2. Den Anfang einer Datei ausgeben
-  3. Inhalt einer Datei ausgeben
-  4. Hilfeseiten aufrufen
-  5. Einen Link erstellen
-  6. Einen Text ausgeben
-  7. Die Gruppenzugehörigkeit einer Datei ändern
-  8. Dateien nach einem bestimmten Inhalt untersuchen
-  9. Den Verzeichnisinhalt anzeigen
-  10. In ein anderes Verzeichnis wechseln
+  1. Eine Datei kopieren
+  2. Dateien mit einem bestimmten Namen finden
+  3. Die Gruppenzugehörigkeit einer Datei ändern
+  4. Inhalt einer Datei ausgeben
+  5. Dateien nach einem bestimmten Inhalt untersuchen
+  6. Ein Verzeichnis anlegen
+  7. Die letzten, eingegeben Befehle ausgeben
+  8. Eine Prozess beenden
+  9. In ein anderes Verzeichnis wechseln
+  10. Benutzen Plattenplatz anzeigen
   11. Zwei Dateien miteinander vergleichen
-  12. Freien Plattenplatz anzeigen
-  13. Dateien mit einem bestimmten Namen finden
-  14. Den Bildschirm löschen
-  15. Eine Prozess beenden
-  16. Ein Verzeichnis anlegen
-  17. Die letzten, eingegeben Befehle ausgeben
-  18. Eine Datei kopieren
-  19. Die Zugriffsrechte einer Datei anpassen
-  20. Den Besitzer einer Datei ändenr
+  12. Die Zugriffsrechte einer Datei anpassen
+  13. Einen Text ausgeben
+  14. Den Besitzer einer Datei ändenr
+  15. Hilfeseiten aufrufen
+  16. Einen Link erstellen
+  17. Den Bildschirm löschen
+  18. Den Anfang einer Datei ausgeben
+  19. Freien Plattenplatz anzeigen
+  20. Den Verzeichnisinhalt anzeigen
 
 
 ## 6.23 Unix-Kommandos
@@ -321,43 +323,43 @@ Bitte ordnen Sie den Unix-Kommandos ihre jeweilige Aufgabe zu:
 
 *Antworten:*
 
-  1. Den Computer herunterfahren
+  1. Anzeigen, welchen Pfad ein Kommando hat
   2. Das Ende einer Datei anzeigen
-  3. Das Passwort ändern
-  4. Den Benutzer wechseln
-  5. Dateien löschen
-  6. Worte und Zeilen zählen
-  7. Den Computer neu starten
-  8. Das aktuelle Verzeichnis ausgeben
-  9. Anzeigen, welchen Pfad ein Kommando hat
-  10. Texte editieren
+  3. Texte editieren
+  4. Laufende Prozesse anzeigen
+  5. Den Computer herunterfahren
+  6. Inhalt einer Datei ausgeben
+  7. Das Passwort ändern
+  8. Den Computer neu starten
+  9. Den Benutzer wechseln
+  10. Sich an einem anderen Computer anmelden
   11. Inhalte sortieren
-  12. Laufende Prozesse anzeigen
-  13. Das folgende Kommando als root ausführen
-  14. Doubletten entfernen
-  15. Inhalt einer Datei ausgeben
-  16. Ersetzungen mit regulären Ausdrücken durchführen
-  17. Prüfen, ob ein Rechner über das Internet erreichbar ist
-  18. Sich an einem anderen Computer anmelden
-  19. Ein Verzeichnis löschen
-  20. Eine Datei verschieben oder umbenennen
+  12. Ersetzungen mit regulären Ausdrücken durchführen
+  13. Das aktuelle Verzeichnis ausgeben
+  14. Ein Verzeichnis löschen
+  15. Prüfen, ob ein Rechner über das Internet erreichbar ist
+  16. Doubletten entfernen
+  17. Worte und Zeilen zählen
+  18. Das folgende Kommando als root ausführen
+  19. Eine Datei verschieben oder umbenennen
+  20. Dateien löschen
 
 
 ## 6.24 Eingabe- und Ausgabeumlenkung
 Sie wollen den Inhalt einer Datei `names.txt` sortieren und danach alle doppelten Einträge entfernen. Das Ergebnis soll in eine neue Datei `result.txt` geschrieben werden. Welche Kommandos sind hierfür korrekt?
 
-  * [ ] sort < names.txt | uniq | result.txt
-  * [ ] sort < names.txt | uniq < result.txt
-  * [ ] names.txt | sort | uniq > result.txt
-  * [ ] cat names.txt | sort | uniq | result.txt
-  * [ ] sort names.txt | uniq > result.txt
-  * [ ] sort names.txt | uniq | result.txt
-  * [ ] cat names.txt > sort > uniq > result.txt
   * [ ] cat names.txt | sort | uniq < result.txt
-  * [ ] sort < names.txt | uniq > result.txt
-  * [ ] sort names.txt | uniq < result.txt
+  * [ ] sort < names.txt | uniq | result.txt
+  * [ ] cat names.txt | sort | uniq | result.txt
   * [ ] sort names.txt > uniq > result.txt
+  * [ ] cat names.txt > sort > uniq > result.txt
+  * [ ] sort < names.txt | uniq > result.txt
+  * [ ] sort names.txt | uniq > result.txt
   * [ ] cat names.txt | sort | uniq > result.txt
+  * [ ] names.txt | sort | uniq > result.txt
+  * [ ] sort < names.txt | uniq < result.txt
+  * [ ] sort names.txt | uniq | result.txt
+  * [ ] sort names.txt | uniq < result.txt
 
 ## 6.25 Spezielle Verzeichnisse
 Ordnen Sie bitte den angegebenen Verzeichnissen ihre jeweilige Rolle in einem Unix-System zu:
@@ -374,27 +376,27 @@ Ordnen Sie bitte den angegebenen Verzeichnissen ihre jeweilige Rolle in einem Un
 
 *Antworten:*
 
-  1. Daten der Benutzer
-  2. Temporäre Dateien
-  3. Dateien des Systems, die sich ständig ändern
-  4. Konfigurationsdateien
-  5. Laufzeitinformationen zum Betriebssystem
-  6. Gerätedateien
-  7. Daten des privilegierten Benutzers
+  1. Laufzeitinformationen zum Betriebssystem
+  2. Konfigurationsdateien
+  3. Daten des privilegierten Benutzers
+  4. Daten der Benutzer
+  5. Temporäre Dateien
+  6. Dateien des Systems, die sich ständig ändern
+  7. Gerätedateien
   8. Ausführbare Programme
 
 
 ## 6.26 Prozess vs. Programm
 Ordnen Sie __Prozess__ und __Programm__ die jeweiligen Eigenschaften zu.
 
-  * Ein P., das gerade ausgeführt wird: ....
-  * Führt exakt ein P. aus: ....
+  * Führt exakt ein Programm aus: ....
   * Kann mehrfach ausgeführt werden: ....
   * Auf der Festplatte gespeichert: ....
-  * Wird in den Speicher geladen: ....
-  * Ist isoliert von anderen: ....
   * Passive Entität: ....
+  * Ein Programm, das gerade ausgeführt wird: ....
   * Arbeitseinheit des Betriebssystems: ....
+  * Ist isoliert von anderen: ....
+  * Wird in den Speicher geladen: ....
 
 *Antworten:*
 
@@ -405,21 +407,21 @@ Ordnen Sie __Prozess__ und __Programm__ die jeweiligen Eigenschaften zu.
 ## 6.27 Komponenten eines Betriebssystems
 Ordnen Sie den unten genannten Aufgaben die jeweiligen Komponenten des Betriebssystems zu, die für diese Aufgaben zuständig sind:
 
-  * Rechenzeit an Threads verteilen: ....
+  * Programmen Dienste des Betriebssystems zur Verfügung stellen: ....
+  * Rechenzeit an Prozesse verteilen: ....
   * Benutzereingaben auf der Konsole annehmen und ausführen: ....
   * Dateien verwalten, anlegen, löschen etc.: ....
-  * Rechenzeit an Prozesse verteilen: ....
-  * Programmen Dienste des Betriebssystems zur Verfügung stellen: ....
-  * Physischen und logischen Speicher trennen: ....
   * Kommunikation zwischen Prozessen ermöglichen: ....
+  * Physischen und logischen Speicher trennen: ....
+  * Rechenzeit an Threads verteilen: ....
 
 *Antworten:*
 
-  1. Shell
-  2. Virtual Memory
+  1. Dateisystem
+  2. Scheduler
   3. System-Calls
-  4. IPC (Inter-process communication)
-  5. Dateisystem
-  6. Scheduler
+  4. Virtual Memory
+  5. Shell
+  6. IPC (Inter-process communication)
 
 

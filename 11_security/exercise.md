@@ -1,5 +1,7 @@
 # 11. IT-Sicherheit - Übungen
 
+<!-- Chapter: 11 -->
+
 ## 11.1 Motivation für IT-Sicherheit
 Geben Sie drei Gründe an, IT-Sicherheit beim Einsatz von Software ernst zu nehmen.
 
@@ -38,21 +40,21 @@ Nennen Sie die zwei großen Gruppen von Schutzmaßnahmen in der IT-Sicherheit. W
 ## 11.7 Zugriffskontrolle
 Erläutern Sie das Prinzip des Triple-A (oder AAA) in der IT-Sicherheit.
 
+  * [ ] AAA steht für Authentication - Authorization - Accountability
   * [ ] AAA steht für Authentication - Authorization - Accounting
   * [ ] AAA steht für Authorization - Availability - Accountability
   * [ ] AAA steht für Authorization - Accounting - Automation
-  * [ ] AAA steht für Authentication - Authorization - Accountability
 
 ## 11.8 Authentifizierungsverfahren
 Benennen Sie drei verschiedene Authentifizierungsverfahren und jeweils deren primäre Schwäche. 
 
 
 ## 11.9 Sichere Passwörter
-Angenommen ein Passwort besteht aus acht Zeichen aus dem Alphabet A-Z (26 Zeichen) und die Überprüfung des Passwortes dauert eine Millisekunde. 
+Angenommen ein Passwort besteht aus acht Zeichen aus dem Alphabet A-Z (26 Zeichen) und die Überprüfung des Passwortes dauert eine Millisekunde.
 
   1. Wie lange dauert es, alle möglichen Passwörter durchzuprobieren?
   2. Erweitern Sie die möglichen Zeichen (bei gleicher Passwortlänge) noch um die Zahlen 0-9: Wie lange dauert es jetzt?
-  3. Erweitern Sie die Passwortlänge um eins (ohne die Zahlen 0-9): wie lange dauert es jetzt? 
+  3. Erweitern Sie die Passwortlänge um eins (ohne die Zahlen 0-9): wie lange dauert es jetzt?
   4. Was ist besser? Mehr unterschiedliche Zeichen, oder längere Passwörter?
   5. Wie lange brauchen moderne Prozessoren, um ein Passwort zu testen?
 
@@ -101,44 +103,44 @@ Erläutern Sie den folgenden Erklärungen die richtigen Begriffe zu:
 
 *Antworten:*
 
-  1. Wurm
-  2. Rootkit
-  3. Zero-day Exploit
-  4. Buffer-Overflow
-  5. Malware
-  6. Exploit
-  7. Angriffsvektor
-  8. Command-and-Control Server
-  9. Virus
-  10. Trojaner
+  1. Virus
+  2. Exploit
+  3. Malware
+  4. Trojaner
+  5. Buffer-Overflow
+  6. Command-and-Control Server
+  7. Rootkit
+  8. Angriffsvektor
+  9. Wurm
+  10. Zero-day Exploit
 
 
 ## 11.18 Authentifizierungsverfahren
 Ordnen Sie den genannten Authentifizierungsverfahren deren jeweilige Schwächen zu:
 
-  * Challenge-Response: ....
-  * Biometrisch: ....
   * Passwort: ....
+  * Biometrisch: ....
+  * Challenge-Response: ....
 
 *Antworten:*
 
   1. kann einfach kopiert werden
-  2. Daten können nicht mehr verändert werden
-  3. Schlüssel muss sicher verwahrt werden
+  2. Schlüssel muss sicher verwahrt werden
+  3. Daten können nicht mehr verändert werden
 
 
 ## 11.19 Symmetrische und Asymmetrische Verschlüsselung
 Bitte ordnen Sie die Eigenschaften den jeweiligen Verschlüsselungsverfahren zu:
 
-  * RSA (Rivest-Shamir-Adleman): ....
-  * unterschiedliche Schlüssel für Ver- und Entschlüsselung: ....
-  * Diffie-Hellman-Schlüsselaustausch: ....
-  * Schlüssel muss geheim gehalten werden: ....
-  * ECDL (Elliptic Curve Discrete Logarithm): ....
-  * ein Schlüssel kann zum öffentlichen Schlüssel erklärt werden: ....
   * AES (Advanced Encryption Standard): ....
-  * DES (Data Encryption Standard): ....
+  * unterschiedliche Schlüssel für Ver- und Entschlüsselung: ....
+  * RSA (Rivest-Shamir-Adleman): ....
+  * ein Schlüssel kann zum öffentlichen Schlüssel erklärt werden: ....
+  * ECDL (Elliptic Curve Discrete Logarithm): ....
   * derselbe Schlüssel für Ver- und Entschlüsselung: ....
+  * Schlüssel muss geheim gehalten werden: ....
+  * Diffie-Hellman-Schlüsselaustausch: ....
+  * DES (Data Encryption Standard): ....
 
 *Antworten:*
 
@@ -149,13 +151,13 @@ Bitte ordnen Sie die Eigenschaften den jeweiligen Verschlüsselungsverfahren zu:
 ## 11.20 Gruppen von Schutzmaßnahmen
 Geben Sie jeweils an, ob eine Maßnahme technisch oder organisatorisch ist:
 
-  * Anti-Virus-Software: ....
-  * Regeln für den Umgang mit E-Mails: ....
-  * 2-Faktor-Authentifizierung: ....
   * Software-Konfiguration: ....
-  * Firewall-Regeln: ....
-  * Backup regelmäßig durchführen: ....
   * Vorgabe zur Passwort-Länge: ....
+  * 2-Faktor-Authentifizierung: ....
+  * Firewall-Regeln: ....
+  * Regeln für den Umgang mit E-Mails: ....
+  * Anti-Virus-Software: ....
+  * Backup regelmäßig durchführen: ....
 
 *Antworten:*
 
@@ -201,24 +203,24 @@ Wie lange sollte man maximal warten, bis ein Update eingespielt wird, um das Ris
 ## 11.23 Digitale Signatur
 Wofür kann man die Technologie der "Digitalen Signatur" (im kryptographischen Sinn) einsetzen?
 
-  * [ ] Verschlüsselung von Dokumenten
-  * [ ] Sicheres Komprimieren von Dokumenten
-  * [ ] Nachweis des Authors eines elektronischen Dokumenten
-  * [ ] Sicherer Austausch von Schlüsseln zwischen Kommunikationspartnern
-  * [ ] Integrität und Authentizität von Software-Installationspaketen bei der Installation
   * [ ] Nachweis, dass ein elektronisches Dokument nicht verändert wurde
+  * [ ] Verschlüsselung von Dokumenten
+  * [ ] Integrität und Authentizität von Software-Installationspaketen bei der Installation
+  * [ ] Sicheres Komprimieren von Dokumenten
+  * [ ] Sicherer Austausch von Schlüsseln zwischen Kommunikationspartnern
+  * [ ] Nachweis des Authors eines elektronischen Dokumenten
 
 ## 11.24 Sichere Passwörter
 Welche der Passwörter sind sicher?
 
-  * [ ] gVHJQ2K2k.v9
-  * [ ] qwertzuiop
-  * [ ] qaywsxedcrfv
-  * [ ] MickeyMouse
-  * [ ] Schirm4Hacker
-  * [ ] poiuztrewq=)(/&)
   * [ ] 1w%&cv
+  * [ ] MickeyMouse
+  * [ ] poiuztrewq=)(/&)
+  * [ ] Schirm4Hacker
   * [ ] passwort
+  * [ ] qaywsxedcrfv
+  * [ ] qwertzuiop
+  * [ ] gVHJQ2K2k.v9
   * [ ] mutti123
 
 ## 11.25 Sichere Passwörter
@@ -235,12 +237,12 @@ Angenommen ein Passwort besteht aus acht Zeichen aus dem Alphabet A-Z (26 Zeiche
 Alice möchte sich gegenüber Bob per Challenge-Response-Verfahren authentifizieren. Wie läuft dies dann ab? 
 
   * Alice sendet Bob eine Aufforderung zum Senden der Challenge: ....
-  * Bob sendet Alice eine Zufallszahl Z und berechnet ein Ergebnis E mithilfe einer Einwegfunktion E = F(Z, S): ....
-  * Bob vergleicht das empfangene E mit seinem selbst berechneten E. Stimmen beide überein, ist Alice wirklich Alice: ....
   * Alice berechnet das Ergebnis E der E = Einwegfunktion F(Z, S): ....
-  * Alice sendet E an Bob: ....
   * Alice und Bob besitzen ein gemeinsames Geheimnis S: ....
   * Alice empfängt eine Zufallszahl Z von Bob: ....
+  * Bob sendet Alice eine Zufallszahl Z und berechnet ein Ergebnis E mithilfe einer Einwegfunktion E = F(Z, S): ....
+  * Bob vergleicht das empfangene E mit seinem selbst berechneten E. Stimmen beide überein, ist Alice wirklich Alice: ....
+  * Alice sendet E an Bob: ....
 
 *Antworten:*
 
@@ -269,14 +271,14 @@ Man hört und [sieht](https://youtu.be/odG2GX4_cUQ) häufiger, dass Autos mit Ke
 Welche der folgenden Aussagen zu einem Challenge-Response-Verfahren sind korrekt? Gehen Sie davon aus, dass sich Alice gegenüber Bob authentifizieren will.
 
   * [ ] Alice muss die Kommunikation starten
-  * [ ] Das gemeinsame Geheimnis darf nicht wiederverwendet werden
   * [ ] Bob erzeugt die Challenge und sendet sie an Alice
-  * [ ] Bob muss Alices Antwort mit seiner eigenen Berechnung vergleichen
-  * [ ] Bob muss die Kommunikation starten
-  * [ ] Es kommt ein Public/Private-Key zum Einsatz
-  * [ ] Alice und Bob benötigen ein gemeinsames Geheimnis
   * [ ] Die Challenge darf nicht noch einmal verwendet werden
   * [ ] Alice erzeugt die Challenge und sendet sie an Bob
   * [ ] Alice muss aus der Challenge und dem Geheimnis einen neuen Wert berechnen
+  * [ ] Bob muss Alices Antwort mit seiner eigenen Berechnung vergleichen
+  * [ ] Alice und Bob benötigen ein gemeinsames Geheimnis
+  * [ ] Das gemeinsame Geheimnis darf nicht wiederverwendet werden
+  * [ ] Bob muss die Kommunikation starten
   * [ ] Bob muss aus der Challenge und dem Geheimnis einen neuen Wert berechnen
+  * [ ] Es kommt ein Public/Private-Key zum Einsatz
 

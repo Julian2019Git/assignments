@@ -1,5 +1,7 @@
 # 8. Netzwerke - Übungen
 
+<!-- Chapter: 8 -->
+
 ## 8.1 Datentransferrate
 Wie lange braucht man, um einen Roman mit 300 Seiten, codiert in Unicode (UCS2) bei einer Datentransferrate von 54 Mbit/s zu übertragen?
 
@@ -122,9 +124,9 @@ Ordnen Sie die folgenden Eigenschaften den jeweiligen Geräten (Bridge, Router, 
   * Verbindet verschiedene Subnetze miteinander: ....
   * Verteilt die Ethernet-Pakete an die einzelnen Hosts: ....
   * Verbindet zwei Netzwerksegmente und arbeitet auf OSI-Level 2: ....
+  * Arbeitet auf der Vermittlungsschicht: ....
   * Arbeitet in einem Netzwerksegment: ....
   * Hat in jedem Subnetz ein Interface mit MAC- und IP-Adresse: ....
-  * Arbeitet auf der Vermittlungsschicht: ....
   * Arbeitet auf der Sicherungsschicht: ....
 
 *Antworten:*
@@ -148,16 +150,16 @@ Wie lange braucht man ungefähr, um einen Roman mit 300 Seiten (30 Zeile mit 60 
 ## 8.25 Hidden-Station-Problem
 Was ist das Hidden-Station-Problem, auch Hidden-Node-Problem genannt?
 
-  * [ ] Eine Station versteckt sich absichtlich vor anderen
   * [ ] Eine Station ist vor allen Teilnehmern und dem Access-Point (AP) verborgen
-  * [ ] Eine Station sieht weder die anderen Teilnehmer, noch den Access-Point (AP)
   * [ ] Der Access-Point (AP) sieht eine Station, andere Teilnehmer im Netz können sie nicht sehen
+  * [ ] Eine Station sieht weder die anderen Teilnehmer, noch den Access-Point (AP)
+  * [ ] Eine Station versteckt sich absichtlich vor anderen
 
 ## 8.26 Bitbreite von IPv4- und IPv6-Adressen
 Wie breit (in Bit) ist eine IPv4- bzw. eine IPv6-Adresse?
 
-  * IPv4: ....
   * IPv6: ....
+  * IPv4: ....
 
 *Antworten:*
 
@@ -172,14 +174,14 @@ Wie breit (in Bit) ist eine IPv4- bzw. eine IPv6-Adresse?
 ## 8.27 Uni-, Multi- und Broadcast
 Bitte ordnen Sie die Definitionen den richtigen Begriffen zu:
 
-  * Datenpakete werden an genau einen Host geschickt: ....
   * Datenpakete werden an mehrere Hosts in einem Netz geschickt: ....
   * Datenpakete werden an alle Hosts in einem Netz geschickt: ....
+  * Datenpakete werden an genau einen Host geschickt: ....
 
 *Antworten:*
 
-  1. Multicast
-  2. Broadcast
+  1. Broadcast
+  2. Multicast
   3. Unicast
 
 
@@ -188,8 +190,8 @@ Gegeben sei ein IPv4-Netz mit einer /12-Netzmaske. Bestimmen Sie bitte für die 
 
 
   * [ ] `173.192.16.0`
-  * [ ] `173.192.69.8`
   * [ ] `173.192.69.0`
+  * [ ] `173.192.69.8`
   * [ ] `173.192.0.0`
   * [ ] `173.190.0.0`
 
@@ -197,11 +199,11 @@ Gegeben sei ein IPv4-Netz mit einer /12-Netzmaske. Bestimmen Sie bitte für die 
 Gegeben sei ein IPv4-Netz mit einer /16-Netzmaske. Bestimmen Sie bitte für die IP-Adresse `8.8.19.240` die Netz-Adresse.
 
   * [ ] `8.8.19.0`
-  * [ ] `8.8.0.0`
-  * [ ] `8.0.0.0`
-  * [ ] `8.8.19.32`
   * [ ] `8.8.12.0`
+  * [ ] `8.8.19.32`
+  * [ ] `8.0.0.0`
   * [ ] `8.8.19.240`
+  * [ ] `8.8.0.0`
 
 ## 8.30 TCP vs. UDP
 Welche Unterschiede gibt es zwischen TCP und UDP? Ordnen Sie passend zu:
@@ -224,45 +226,45 @@ Welche Unterschiede gibt es zwischen TCP und UDP? Ordnen Sie passend zu:
 ## 8.31 Anhängsel an URL
 Worum handelt es sich bei dem Anhängsel an der URL (die Zahl nach dem Doppelpunkt), z.B. `http://joe.cs.hs-mannheim.de:8080`?
 
-  * [ ] Pfad
-  * [ ] Port
   * [ ] Subdomain
+  * [ ] Pfad
   * [ ] Benutzername
   * [ ] IP-Suffix
+  * [ ] Port
   * [ ] Timeout
 
 ## 8.32 Arten von Adressen
 Bitte ordnen Sie die Begriffe und Definitionen korrekt zu:
 
-  * kann geroutet werden: ....
-  * unterstützt kein Routing: ....
-  * ist spezifisch für das Ethernet-Protokoll: ....
   * ist dem Network-Layer zuzuordnen: ....
-  * sind 48 Bit breit: ....
   * sind hierarchisch aufgebaut: ....
-  * ist dem Data Link Layer zuzuordnen: ....
-  * sind 32 oder 128 Bit breit: ....
   * dient der eindeutigen Identifikation im Internet: ....
   * sind flach aufgebaut: ....
+  * sind 32 oder 128 Bit breit: ....
+  * unterstützt kein Routing: ....
+  * sind 48 Bit breit: ....
+  * ist spezifisch für das Ethernet-Protokoll: ....
+  * kann geroutet werden: ....
+  * ist dem Data Link Layer zuzuordnen: ....
 
 *Antworten:*
 
-  1. UDP-Adresse
-  2. ARP-Adresse
+  1. ARP-Adresse
+  2. IP-Adresse
   3. MAC-Adresse
-  4. TCP-Adresse
-  5. IP-Adresse
+  4. UDP-Adresse
+  5. TCP-Adresse
 
 
 ## 8.33 Hub oder Switch
 Ordnen Sie die Eigenschaften passend zu:
 
 
-  * ist unsicherer: ....
-  * sendet die Datenpakete nur an einen Port: ....
-  * sendet die Datenpakete an alle Ports: ....
   * vermeidet Netzwerkkollisionen: ....
+  * sendet die Datenpakete nur an einen Port: ....
   * ist sicherer: ....
+  * sendet die Datenpakete an alle Ports: ....
+  * ist unsicherer: ....
 
 *Antworten:*
 

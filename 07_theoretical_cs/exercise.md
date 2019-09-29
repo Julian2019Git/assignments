@@ -1,5 +1,7 @@
 # 7. Formale Sprachen und Automaten - Übungen
 
+<!-- Chapter: 7 -->
+
 
 ## 7.1 Parkscheinautomat
 Auf einem Parkplatz kostet das Parken 1,50 Euro. Ein Parkscheinautomat akzeptiert 50 Cent, 1 Euro und 2 Euro-Münzen. Nach Einwurf der korrekten Geldsumme liefert er das Ticket und gegebenenfalls das Restgeld. Er besitzt keine Abbruchtaste.
@@ -19,11 +21,11 @@ Testen Sie Ihren Ausdruck mit verschiedenen Matrikelnummern.
 Geben Sie einen regulären Ausdruck an, der alle Vorkommen von "e" in einem Text durch "3" ersetzt. Orientieren Sie sich an der Syntax des Unix-Werkzeugs `sed` bei der Angabe des Ausdrucks (extended regular expressions mit der `-E`-Option). Testen Sie den Ausdruck mit Hilfe von `sed`.
 
 
-  * [ ] `s/e/3/g`
+  * [ ] `/e/3/g`
   * [ ] `s/e/3/`
+  * [ ] `s/e/3/g`
   * [ ] `/e/3/`
   * [ ] `s\e\3\`
-  * [ ] `/e/3/g`
 
 ## 7.4 Wörter tauschen
 Geben Sie einen regulären Ausdruck an, der zwei durch Bindestrich (`-`) verbundene Wörter vertauscht. Z.B. soll aus "Speicher-Fehler" das Wort "Fehler-Speicher" werden. Orientieren Sie sich an der Syntax des Unix-Werkzeugs `sed` bei der Angabe des Ausdrucks (extended regular expressions mit der `-E`-Option). Testen Sie den Ausdruck mit Hilfe von `sed`.
@@ -128,15 +130,15 @@ Geben Sie den Aufwand mittels der O-Notation an.
 ## 7.12 Komplexität berechnen
 Betrachten Sie folgende Messdaten, die für die Laufzeit eines Programms bei unterschiedlichen Datenmengen (n) ermittelt wurden und ordnen Sie die entsprechende Komplexität (in O-Notation) zu:
 
-  * 7 + log(n^4): ....
-  * 1 + 2 + 3 + 4 + ... + n: ....
-  * (8n + 12) / 6: ....
   * n(7 + log(n)): ....
-  * n^4 + 4n^3 + 2n^2 + 12: ....
-  * 2n(8 + log(n)): ....
-  * 8n + log(n): ....
-  * n^3 + 4n^2 + 2n + 12: ....
   * 7 + log(n^3): ....
+  * 8n + log(n): ....
+  * n^4 + 4n^3 + 2n^2 + 12: ....
+  * 1 + 2 + 3 + 4 + ... + n: ....
+  * 2n(8 + log(n)): ....
+  * (8n + 12) / 6: ....
+  * n^3 + 4n^2 + 2n + 12: ....
+  * 7 + log(n^4): ....
 
 *Antworten:*
 
@@ -275,40 +277,40 @@ for (int i = 0; i < n; i++) {
 ## 7.19 Wörter tauschen
 Geben Sie einen regulären Ausdruck an, der zwei durch Bindestrich (`-`) verbundene Wörter vertauscht. Z.B. soll aus "Speicher-Fehler" das Wort "Fehler-Speicher" werden. Orientieren Sie sich an der Syntax des Unix-Werkzeugs `sed` bei der Angabe des Ausdrucks (extended regular expressions mit der `-E`-Option).
 
+  * [ ] `sed -E 's/(*)-(*)/\2-\1/g'`
+  * [ ] `sed -E 's/.+-.+/$2-$1/g'`
+  * [ ] `sed -E 's/(*)-(*)/$2-$1/g'`
+  * [ ] `sed -E 's/.+-.+/\2-\1/g'`
   * [ ] `sed -E 's/(.+)-(.+)/\2-\1/g'`
+  * [ ] `sed -E 's/[.+]-[.+]/\2-\1/g'`
   * [ ] `sed -E 's/(.+)-(.+)/$2-$1/g'`
   * [ ] `sed -E 's/[.+]-[.+]/$2-$1/g'`
-  * [ ] `sed -E 's/.+-.+/$2-$1/g'`
-  * [ ] `sed -E 's/[.+]-[.+]/\2-\1/g'`
-  * [ ] `sed -E 's/(*)-(*)/$2-$1/g'`
-  * [ ] `sed -E 's/(*)-(*)/\2-\1/g'`
-  * [ ] `sed -E 's/.+-.+/\2-\1/g'`
 
 ## 7.20 Regulärer Ausdruck für Matrikelnummern
 Geben Sie einen regulären Ausdruck an, der die Matrikelnummern der Studierenden, die im Sommersemester 2018 angefangen haben (beginnen mit `181` und darauf folgen immer vier Ziffern) matched. Andere, ähnliche Zahlen sollen nicht matchen.
 
-  * [ ] `/^181[09]*$/`
-  * [ ] `/^181(0-9)*$/`
-  * [ ] `/^181[09]{4}$/`
-  * [ ] `/181[09]{4}/`
+  * [ ] `/181[0-9]*/`
+  * [ ] `/^181(0-9){4}$/`
   * [ ] `/^181[0-9]{4}$/`
-  * [ ] `/181(0-9)*/`
+  * [ ] `/181[09]*/`
+  * [ ] `/^181[09]{4}$/`
+  * [ ] `/^181(0-9)*$/`
   * [ ] `/181(0-9){4}/`
   * [ ] `/181[0-9]{4}/`
-  * [ ] `/181[0-9]*/`
+  * [ ] `/181(0-9)*/`
   * [ ] `/^181[0-9]*$/`
-  * [ ] `/181[09]*/`
-  * [ ] `/^181(0-9){4}$/`
+  * [ ] `/^181[09]*$/`
+  * [ ] `/181[09]{4}/`
 
 ## 7.21 Regulärer Ausdruck für Jahreszahlen
 Geben Sie einen regulären Ausdruck an, der alle Jahreszahlen von 2000-2999 matched aber keine anderen Zahlen, z.B. `20` oder `22000`.
 
   * [ ] `/^2.+$/`
-  * [ ] `/2[0-9]{3}/`
-  * [ ] `/^2.*$/`
   * [ ] `/^2[0-9][0-9][0-9]$/`
-  * [ ] `/2[0-9]{3}$/`
   * [ ] `/^2[0-9]{3}$/`
+  * [ ] `/^2.*$/`
+  * [ ] `/2[0-9]{3}$/`
+  * [ ] `/2[0-9]{3}/`
 
 ## 7.22 Erweiterte Backus-Naur-Form (EBNF)
 Gegeben sei die folgende Grammatik in EBNF-Form
@@ -324,13 +326,13 @@ digit      = "0" | "1" ... "9";
 
 Welche der folgenden Ausdrücke erfüllen diese Grammatik?
 
-  * [ ] `182 * x + x * z`
+  * [ ] `182 + x * x + z`
   * [ ] `x / y`
   * [ ] `333 / z`
-  * [ ] `182 * a + x * z`
-  * [ ] `(333 / z) + (4 - 6)`
   * [ ] `333 / c`
-  * [ ] `182 + x * x + z`
+  * [ ] `182 * x + x * z`
+  * [ ] `(333 / z) + (4 - 6)`
+  * [ ] `182 * a + x * z`
   * [ ] `a / b`
 
 ## 7.23 Erweiterte Backus-Naur-Form (EBNF)
@@ -346,14 +348,14 @@ number     = [sign]{digit}edigit
 Welche der folgenden Ausdrücke erfüllen diese Grammatik?
 
   * [ ] `3+4`
-  * [ ] `+3458`
-  * [ ] `2`
-  * [ ] `2-3`
-  * [ ] `13`
-  * [ ] `+-3`
-  * [ ] `digit`
-  * [ ] `34`
-  * [ ] `-123`
   * [ ] `-56`
+  * [ ] `+3458`
+  * [ ] `digit`
+  * [ ] `-123`
+  * [ ] `2`
+  * [ ] `+-3`
+  * [ ] `13`
   * [ ] `+37`
+  * [ ] `34`
+  * [ ] `2-3`
 

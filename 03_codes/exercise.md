@@ -1,7 +1,9 @@
 # 3. Codes - Übungen
 
+<!-- Chapter: 3 -->
+
 ## 3.1 Morse-Alphabet
-Warum werden beim Morse-Alphabet manche Buchstaben mit kurzen und manche mit langen Folgen der Zeichen `.` und `−` dargestellt? Handelt es sich beim Morse-Alphabet um eine binäre Codierung? Begründen Sie Ihre Antwort.
+Warum werden beim Morse-Alphabet manche Buchstaben mit kurzen und manche mit langen Folgen der Zeichen `.` und `-` dargestellt? Handelt es sich beim Morse-Alphabet um eine binäre Codierung? Begründen Sie Ihre Antwort.
 
 
 ## 3.2 Fano-Bedingung
@@ -9,7 +11,7 @@ Genügt die Deutsche Sprache der Fano-Bedingung? Begründen Sie Ihre Antwort.
 
 
 ## 3.3 Hamming-Distanz bestimmen
-Bestimmen Sie die Hamming-Distanz für den folgenden Code: { 110101, 101011, 010011, 101100 }
+Bestimmen Sie die Hamming-Distanz für den folgenden Code: { 110101, 101011, 010011, 101100 }
 
   * [ ] 1
   * [ ] 2
@@ -19,7 +21,7 @@ Bestimmen Sie die Hamming-Distanz für den folgenden Code: { 110101, 101011, 01
   * [ ] 6
 
 ## 3.4 Hamming-Distanz bestimmen
-Bestimmen Sie die Hamming-Distanz für den folgenden Code: { 2B, 4A, 78, A9 }
+Bestimmen Sie die Hamming-Distanz für den folgenden Code: { 2B, 4A, 78, A9 }
 
   * [ ] 1
   * [ ] 2
@@ -37,12 +39,12 @@ Welcher Code ergibt sich dann?
 ## 3.6 Parität
 Geben Sie für die folgenden Bitfolgen jeweils das Paritätsbit an.
 
-  * 0000000
-  * 0000010
-  * 1000000
-  * 1001001
-  * 1111111
-  * 1010101
+  * `0000000`
+  * `0000010`
+  * `1000000`
+  * `1001001`
+  * `1111111`
+  * `1010101`
 
 
 ## 3.7 Parität
@@ -76,11 +78,11 @@ Wie lautet die empfangene Nachricht? Sind Übertragungsfehler aufgetreten? Wenn 
 Berechnen Sie für die Nachricht `1101011010` die CRC-Prüfsumme mit dem Prüfpolynom `10011`.
 
 
-  * [ ] 11010110101111
-  * [ ] 10010100101111
+  * [ ] 11010110101000
   * [ ] 11010110101101
   * [ ] 11010110101001
-  * [ ] 11010110101000
+  * [ ] 11010110101111
+  * [ ] 10010100101111
 
 ## 3.11 Daten mit CRC prüfen
 Sie haben die Nachricht `100110110101` erhalten. Das Prüfpolynom ist `10011`. Ist die Nachricht korrekt übertragen worden?
@@ -130,14 +132,14 @@ Geben Sie für die folgenden Verfahre an, ob sie verlustbehaftete oder verlustfr
 ## 3.16 Verlustfreie- und Verlustbehaftete Kompression
 Geben Sie für die folgenden Verfahre an, ob sie verlustbehaftete oder verlustfreie Kompressionsverfahren sind:
 
-  * GZIP: ....
-  * RLE: ....
-  * MP3: ....
-  * JPEG: ....
-  * H.264 (MPEG-4): ....
   * LZW: ....
-  * FLAC: ....
+  * MP3: ....
+  * H.264 (MPEG-4): ....
+  * JPEG: ....
+  * GZIP: ....
   * LZ77: ....
+  * FLAC: ....
+  * RLE: ....
 
 *Antworten:*
 
@@ -167,23 +169,23 @@ Warum ist das GIF-Dateiformat besser geeignet, um farbige Comics zu speichern, a
 ## 3.20 Grafikformate
 Es gibt unterschiedliche Grafikformate mit ebenso unterschiedlichen Eigenschaften. Ordnen Sie bitte die Eigenschaften den Formaten zu:
 
-  * PNG: ....
   * BMP: ....
-  * GIF: ....
-  * SVG: ....
   * JPEG: ....
+  * GIF: ....
   * TIFF: ....
+  * PNG: ....
+  * SVG: ....
 
 *Antworten:*
 
-  1. pixelbasiert, verlustbehaftet, maximal 256 Farben, komprimiert
-  2. pixelbasiert, verlustfrei, echtfarben, unkomprimiert
-  3. pixelbasiert, verlustbehaftet, echtfarben, komprimiert
-  4. pixelbasiert, verlustfrei, echtfarben, komprimiert
+  1. pixelbasiert, verlustfrei, echtfarben, komprimiert
+  2. pixelbasiert, verlustfrei oder verlustbehaftet, echtfarben, komprimiert
+  3. vektorbasiert, verlustbehaftet
+  4. pixelbasiert, verlustfrei, maximal 256 Farben, komprimiert
   5. vektorbasiert, verlustfrei
-  6. pixelbasiert, verlustfrei oder verlustbehaftet, echtfarben, komprimiert
-  7. vektorbasiert, verlustbehaftet
-  8. pixelbasiert, verlustfrei, maximal 256 Farben, komprimiert
+  6. pixelbasiert, verlustfrei, echtfarben, unkomprimiert
+  7. pixelbasiert, verlustbehaftet, echtfarben, komprimiert
+  8. pixelbasiert, verlustbehaftet, maximal 256 Farben, komprimiert
 
 
 ## 3.21 JPEG in der Fotografie
@@ -197,17 +199,17 @@ Welche Eigenschaft des menschlichen Hörsinns wird vom MP3-Format genutzt?
 ## 3.23 Funktionsweise von MP3
 Welche Eigenschaft der folgenden Eigenschaften trifft auf das MP3-Format zu?
 
-  * [ ] bedient sich der Trägheit der Luft als Medium
-  * [ ] speichert nur für den Menschen wahrnehmbare Anteile des Signals
-  * [ ] hat eine konstante Bitrate
-  * [ ] basiert auf dem Shannon-Theorem
-  * [ ] hat eine variable Bitrate
-  * [ ] verringert die Datenmenge im Vergleich zu WAV
-  * [ ] ist verlustbehaftet
   * [ ] bedient sich der Psychologie
-  * [ ] reduziert die Auflösung des Signals in allen Frequenzbereichen
+  * [ ] basiert auf dem Shannon-Theorem
   * [ ] bedient sich der Psychoakustik
+  * [ ] speichert nur für den Menschen wahrnehmbare Anteile des Signals
+  * [ ] bedient sich der Trägheit der Luft als Medium
   * [ ] ist verlustfrei
+  * [ ] reduziert die Auflösung des Signals in allen Frequenzbereichen
+  * [ ] verringert die Datenmenge im Vergleich zu WAV
+  * [ ] hat eine konstante Bitrate
+  * [ ] ist verlustbehaftet
+  * [ ] hat eine variable Bitrate
 
 ## 3.24 Speicherverbrauch eines Bildes
 Ein Bild (Auflösung 640x466 Pixel) hat mit JPEG-Kompression (75% Qualität) eine Größe von 111.431 Byte. Wie viel Speicher würde man benötigen, wenn man es unkomprimiert ablegen wollte. Gehen Sie von 8 Bit pro Farbe ohne Alphakanal aus. Ignorieren Sie die Header und Metadaten.

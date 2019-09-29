@@ -1,5 +1,7 @@
 # 13. Künstliche Intelligenz - Übungen
 
+<!-- Chapter: 13 -->
+
 ## 13.1 Backpropagation
 Was versteht man im Zusammenhang von Neuronalen Netzen unter _Backpropagation_?
 
@@ -97,7 +99,7 @@ Gegeben sei ein künstliches Neuron mit drei Eingängen (x1, x2 und x3) (und ein
 
 Als Aktivierungsfunktion wird die Sigmoid-Funktion verwendet, wobei vorher noch ein Bias addiert wird. Der Bias beträgt konstant -2.0. Den Verlauf der Sigmoid-Funktion `f(x) = 1 / (1 + exp(-x))` für das Neuron können Sie aus folgender Grafik ableiten:
 
-![](img/sigmoid.png)
+<img src="img/sigmoid.png" width="700">
 
 Berechnen Sie für folgende Werte die Ausgabe des Neurons:
 
@@ -113,7 +115,7 @@ Gegeben sei ein künstliches Neuron mit drei Eingängen (x1, x2 und x3) (und ein
 
 Als Aktivierungsfunktion wird die Sigmoid-Funktion verwendet, wobei vorher noch ein Bias addiert wird. Der Bias beträgt konstant -2.0. Den Verlauf der Sigmoid-Funktion `f(x) = 1 / (1 + exp(-x))` für das Neuron können Sie aus folgender Grafik ableiten:
 
-![](img/sigmoid.png)
+<img src="img/sigmoid.png" width="700">
 
 Berechnen Sie für folgende Werte die Ausgabe des Neurons:
 
